@@ -1,0 +1,278 @@
+{
+  "/location-villas/palais-nora-marrakech/": {
+    "location": "Route Ourika",
+    "rooms": 20,
+    "people": 30,
+    "priceFrom": 2500
+  },
+  "/location-villas/villa-afourar/": {
+    "location": "Route de Fès",
+    "rooms": 3,
+    "people": 6,
+    "priceFrom": 200
+  },
+  "/location-villas/villa-chouchou/": {
+    "location": "Palmerie",
+    "rooms": 4,
+    "people": 6,
+    "priceFrom": 400
+  },
+  "/location-villas/villa-crystal/": {
+    "location": "Route de Fès",
+    "rooms": 6,
+    "people": 10,
+    "priceFrom": 200
+  },
+  "/location-villas/villa-dar-zineb/": {
+    "location": "Route de Fès",
+    "rooms": 3,
+    "people": 6,
+    "priceFrom": 200
+  },
+  "/location-villas/villa-fassia-marrakech/": {
+    "location": "Route de Fès",
+    "rooms": 3,
+    "people": 6,
+    "priceFrom": 400
+  },
+  "/location-villas/villa-fes-marrakech/": {
+    "location": "Route de Fès",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 600
+  },
+  "/location-villas/villa-golf-argan-marrakech/": {
+    "location": "Centre Ville",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 600
+  },
+  "/location-villas/villa-kech-marrakech/": {
+    "location": "Route de Fès",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 500
+  },
+  "/location-villas/villa-marrakech/": {
+    "location": "Centre Ville",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 850
+  },
+  "/location-villas/villa-majo/": {
+    "location": "Route de Fès",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 600
+  },
+  "/location-villas/villa-marrakchia-marrakech/": {
+    "location": "Centre Ville",
+    "rooms": 10,
+    "people": 20,
+    "priceFrom": 1200
+  },
+  "/location-villas/villa-mimouna-marrakech/": {
+    "location": "Centre Ville",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 700
+  },
+  "/location-villas/villa-noria-marrakech/": {
+    "location": "Route Tahanaout",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 900
+  },
+  "/location-villas/villa-ouasise-marrakech/": {
+    "location": "Route Ourika",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 500
+  },
+  "/location-villas/villa-palm-marrakech/": {
+    "location": "Route de Fès",
+    "rooms": 7,
+    "people": 14,
+    "priceFrom": 1200
+  },
+  "/location-villas/villa-palmerie-marrakech/": {
+    "location": "Palmerie",
+    "rooms": 6,
+    "people": 10,
+    "priceFrom": 550
+  },
+  "/location-villas/villa-rak-marrakech/": {
+    "location": "Palmerie",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 450
+  },
+  "/location-villas/villa-salmane-marrakech/": {
+    "location": null,
+    "rooms": 7,
+    "people": 10,
+    "priceFrom": 600
+  },
+  "/location-villas/villa-sirine-marrakech/": {
+    "location": "Route de Fès",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 700
+  },
+  "/location-villas/villa-sultan/": {
+    "location": "Route Ourika",
+    "rooms": 9,
+    "people": 20,
+    "priceFrom": 1200
+  },
+  "/location-villas/villa-targa-marrakech/": {
+    "location": "Targa",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 350
+  },
+  "/location-villas/villa-zaytouna-marrakech/": {
+    "location": "Centre Ville",
+    "rooms": 6,
+    "people": 20,
+    "priceFrom": 800
+  },
+  "/en/rent-villa/nora-palace/": {
+    "location": "Route Ourika",
+    "rooms": 20,
+    "people": 30,
+    "priceFrom": 2500
+  },
+  "/en/rent-villa/villa-afourar/": {
+    "location": "Route de Fès",
+    "rooms": 3,
+    "people": 6,
+    "priceFrom": 200
+  },
+  "/en/rent-villa/villa-chouchou/": {
+    "location": "Palmerie",
+    "rooms": 4,
+    "people": 6,
+    "priceFrom": 400
+  },
+  "/en/rent-villa/villa-crystal/": {
+    "location": "Route de Fès",
+    "rooms": 6,
+    "people": 10,
+    "priceFrom": 200
+  },
+  "/en/rent-villa/villa-dar-zineb/": {
+    "location": "Route de Fès",
+    "rooms": 3,
+    "people": 6,
+    "priceFrom": 200
+  },
+  "/en/rent-villa/villa-fassia/": {
+    "location": "Route de Fès",
+    "rooms": 3,
+    "people": 6,
+    "priceFrom": 400
+  },
+  "/en/rent-villa/villa-fes/": {
+    "location": "Route de Fès",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 600
+  },
+  "/en/rent-villa/villa-golf-argan/": {
+    "location": "Centre Ville",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 600
+  },
+  "/en/rent-villa/villa-kech/": {
+    "location": "Route de Fès",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 500
+  },
+  "/en/rent-villa/villa-lala/": {
+    "location": "Centre Ville",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 850
+  },
+  "/en/rent-villa/villa-majo/": {
+    "location": "Route de Fès",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 600
+  },
+  "/en/rent-villa/villa-marrakchia/": {
+    "location": "Centre Ville",
+    "rooms": 10,
+    "people": 20,
+    "priceFrom": 1200
+  },
+  "/en/rent-villa/villa-mimouna/": {
+    "location": "Centre Ville",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 700
+  },
+  "/en/rent-villa/villa-noria/": {
+    "location": "Route Tahanaout",
+    "rooms": 5,
+    "people": 10,
+    "priceFrom": 900
+  },
+  "/en/rent-villa/villa-ouasise/": {
+    "location": "Route Ourika",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 500
+  },
+  "/en/rent-villa/villa-palm/": {
+    "location": "Route de Fès",
+    "rooms": 7,
+    "people": 14,
+    "priceFrom": 1200
+  },
+  "/en/rent-villa/villa-palmerie/": {
+    "location": "Palmerie",
+    "rooms": 6,
+    "people": 10,
+    "priceFrom": 550
+  },
+  "/en/rent-villa/villa-rak/": {
+    "location": "Palmerie",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 450
+  },
+  "/en/rent-villa/villa-salmane/": {
+    "location": null,
+    "rooms": 7,
+    "people": 10,
+    "priceFrom": 600
+  },
+  "/en/rent-villa/villa-sirine/": {
+    "location": "Route de Fès",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 700
+  },
+  "/en/rent-villa/villa-sultan/": {
+    "location": "Route Ourika",
+    "rooms": 9,
+    "people": 20,
+    "priceFrom": 1200
+  },
+  "/en/rent-villa/villa-targa/": {
+    "location": "Targa",
+    "rooms": 4,
+    "people": 8,
+    "priceFrom": 350
+  },
+  "/en/rent-villa/villa-zaytouna/": {
+    "location": "Centre Ville",
+    "rooms": 6,
+    "people": 20,
+    "priceFrom": 800
+  }
+}

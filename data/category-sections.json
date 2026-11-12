@@ -1,0 +1,243 @@
+{
+  "restaurant": {
+    "image": "/assets/sections/restaurants.jpg",
+    "fr": {
+      "title": "Pourquoi Marrakech séduit les gourmets du monde entier ?",
+      "blocks": [
+        { "h3": "Une richesse culinaire entre tradition et modernité" },
+        { "p": "La cuisine marocaine, et en particulier celle de Marrakech, est un véritable voyage des sens. Du fameux tajine au couscous parfumé, en passant par les pastillas croustillantes ou les briouates sucrées-salées, chaque plat raconte une histoire. Mais Marrakech, c’est aussi une scène gastronomique en pleine évolution. De nombreux chefs locaux et internationaux y revisitent les classiques avec une touche contemporaine, pour le plus grand plaisir des fins gourmets." },
+        { "h3": "Des lieux d’exception pour tous les budgets" },
+        { "p": "Marrakech propose une grande diversité de restaurants adaptés à toutes les envies : petits établissements familiaux, restaurants chics dans des riads, enseignes branchées ou tables étoilées. Certains lieux offrent une vue imprenable sur les montagnes de l’Atlas ou les toits de la médina, d’autres misent sur une ambiance intimiste avec musique live et décoration traditionnelle." }
+      ]
+    },
+    "en": {
+      "title": "Why does Marrakech win over food lovers from all over the world?",
+      "blocks": [
+        { "h3": "A culinary heritage between tradition and modernity" },
+        { "p": "Moroccan cuisine, and Marrakech’s in particular, is a true journey for the senses. From the famous tagine to fragrant couscous, crispy pastillas and sweet-and-savoury briouats, every dish tells a story. But Marrakech is also a fast-evolving food scene: many local and international chefs reinvent the classics with a contemporary touch, to the delight of discerning gourmets." },
+        { "h3": "Exceptional places for every budget" },
+        { "p": "Marrakech offers a wide variety of restaurants for every mood: small family-run spots, chic restaurants inside riads, trendy venues and award-winning tables. Some offer breathtaking views of the Atlas Mountains or the rooftops of the medina, while others focus on an intimate atmosphere with live music and traditional decor." }
+      ]
+    }
+  },
+  "accommodation": {
+    "image": "/assets/sections/villas.jpg",
+    "fr": {
+      "title": "Conseils pour bien choisir votre villa à Marrakech",
+      "blocks": [
+        { "h3": "Quel quartier privilégier ?" },
+        {
+          "ul": [
+            "<strong>Palmeraie :</strong> calme absolu, villas avec vastes jardins, souvent prisées pour les grands groupes ou les événements privés.",
+            "<strong>Médina :</strong> ambiance plus authentique, proche des souks et de la vie locale, parfait pour une immersion totale.",
+            "<strong>Route de l’Ourika ou route de Fès :</strong> belles propriétés avec vue sur l’Atlas, idéales pour les amateurs de nature et de tranquillité."
+          ]
+        },
+        { "p": "Chaque quartier a son charme. L’important est de choisir selon vos priorités : proximité de la ville, calme absolu, ou atmosphère locale." },
+        { "h3": "Pourquoi choisir une villa plutôt qu’un hôtel ?" },
+        {
+          "ul": [
+            "<strong>Plus d’intimité :</strong> pas de voisins de chambre, pas de files au petit-déjeuner.",
+            "<strong>Plus d’espace :</strong> salons, cuisine, piscine, terrasse… chaque moment se vit à votre rythme.",
+            "<strong>Une expérience personnalisée :</strong> des vacances pensées à votre image, sans horaires imposés ni contraintes."
+          ]
+        },
+        { "p": "Louer une villa, c’est s’offrir un petit coin de paradis rien qu’à soi, le temps d’un week-end ou de plusieurs semaines." },
+        { "h3": "Quand réserver sa villa à Marrakech ?" },
+        { "p": "La haute saison à Marrakech s’étend de mars à mai, puis d’octobre à décembre. Les villas les plus demandées partent vite à ces périodes. Si vous souhaitez une villa bien située, avec des prestations haut de gamme, réservez au moins 2 à 3 mois à l’avance." }
+      ]
+    },
+    "en": {
+      "title": "Tips for choosing the right villa in Marrakech",
+      "blocks": [
+        { "h3": "Which area should you choose?" },
+        {
+          "ul": [
+            "<strong>Palmeraie:</strong> absolute calm and villas with large gardens, popular with big groups and for private events.",
+            "<strong>Medina:</strong> a more authentic atmosphere, close to the souks and local life, perfect for total immersion.",
+            "<strong>Ourika road or Fès road:</strong> beautiful properties with views of the Atlas, ideal for nature lovers looking for peace and quiet."
+          ]
+        },
+        { "p": "Every area has its own charm. What matters is choosing according to your priorities: being close to the city, absolute calm, or local atmosphere." },
+        { "h3": "Why choose a villa rather than a hotel?" },
+        {
+          "ul": [
+            "<strong>More privacy:</strong> no neighbours next door, no queues at breakfast.",
+            "<strong>More space:</strong> lounges, kitchen, pool, terrace… you enjoy every moment at your own pace.",
+            "<strong>A tailor-made experience:</strong> a holiday designed around you, with no set schedules or constraints."
+          ]
+        },
+        { "p": "Renting a villa means treating yourself to your own little corner of paradise, for a weekend or for several weeks." },
+        { "h3": "When should you book your villa in Marrakech?" },
+        { "p": "High season in Marrakech runs from March to May, then from October to December. The most sought-after villas get booked quickly during these periods. If you want a well-located villa with high-end amenities, book at least 2 to 3 months in advance." }
+      ]
+    }
+  },
+  "night_club": {
+    "image": "/assets/sections/night-clubs.jpg",
+    "fr": {
+      "title": "Pourquoi Marrakech est l’un des hauts lieux de la fête au Maroc ?",
+      "blocks": [
+        { "h3": "Une diversité d’ambiances pour toutes les envies" },
+        { "p": "Ce qui fait la force de la nuit marrakchie, c’est sa capacité à réunir tradition et modernité dans un même souffle. Certains clubs adoptent une ambiance orientale feutrée avec danseuses et musique arabo-andalouse, tandis que d’autres misent sur une atmosphère résolument contemporaine avec des sons électro-house, hip-hop ou latino. Que vous soyez amateur de soirées élégantes ou de dancefloors effervescents, Marrakech a forcément une adresse qui vous correspond." },
+        { "h3": "Des établissements haut de gamme et des expériences immersives" },
+        { "p": "La plupart des boîtes de nuit à Marrakech offrent bien plus qu’un simple dancefloor. Décors somptueux inspirés des palais orientaux, service VIP, cocktails signatures, jeux de lumière soignés… La nuit à Marrakech est une véritable expérience sensorielle. Certains clubs accueillent régulièrement des artistes de renommée internationale, transformant une soirée en véritable événement." }
+      ]
+    },
+    "en": {
+      "title": "Why is Marrakech one of Morocco’s top party destinations?",
+      "blocks": [
+        { "h3": "A variety of atmospheres for every mood" },
+        { "p": "The strength of Marrakech nightlife is its ability to blend tradition and modernity in a single breath. Some clubs offer a cosy oriental atmosphere with dancers and Arab-Andalusian music, while others go for a resolutely contemporary vibe with electro-house, hip-hop or Latin sounds. Whether you love elegant evenings or buzzing dance floors, Marrakech is sure to have a place for you." },
+        { "h3": "High-end venues and immersive experiences" },
+        { "p": "Most nightclubs in Marrakech offer much more than a dance floor. Lavish decor inspired by oriental palaces, VIP service, signature cocktails, carefully designed light shows… A night out in Marrakech is a true sensory experience. Some clubs regularly host internationally renowned artists, turning an evening into a real event." }
+      ]
+    }
+  },
+  "activity": {
+    "image": "/assets/sections/activities.jpg",
+    "fr": {
+      "title": "Pourquoi Marrakech est une destination d’activités par excellence ?",
+      "blocks": [
+        { "h3": "Des activités culturelles pour découvrir l’âme marocaine" },
+        { "p": "Si vous aimez vous immerger dans la culture locale, Marrakech est l’endroit idéal. Participez à un cours de cuisine marocaine, initiez-vous à la calligraphie arabe ou prenez part à un atelier de poterie dans un atelier d’artisan. Ces expériences vous permettent de comprendre l’histoire et les traditions du Maroc tout en créant un souvenir unique à ramener chez vous." },
+        { "h3": "L’aventure au bout des doigts : désert, montagne, adrénaline" },
+        { "p": "Envie de sensations fortes ? Partez en quad dans le désert d’Agafay, explorez les sentiers de la vallée de l’Ourika ou vivez une excursion d’une journée à Essaouira sur la côte Atlantique. Pour les plus rêveurs, un vol en montgolfière au-dessus de la palmeraie est une expérience magique, surtout au lever du soleil. Marrakech offre une variété d’activités outdoor qui allient nature et dépaysement." }
+      ]
+    },
+    "en": {
+      "title": "Why is Marrakech the ultimate destination for activities?",
+      "blocks": [
+        { "h3": "Cultural activities to discover the Moroccan soul" },
+        { "p": "If you love immersing yourself in local culture, Marrakech is the perfect place. Join a Moroccan cooking class, try your hand at Arabic calligraphy or take part in a pottery workshop with a local artisan. These experiences help you understand Morocco’s history and traditions while creating a unique memory to take home." },
+        { "h3": "Adventure at your fingertips: desert, mountains, adrenaline" },
+        { "p": "Looking for thrills? Ride a quad bike through the Agafay desert, explore the trails of the Ourika Valley or enjoy a day trip to Essaouira on the Atlantic coast. For dreamers, a hot air balloon flight over the palm grove is a magical experience, especially at sunrise. Marrakech offers a wide range of outdoor activities combining nature and a complete change of scenery." }
+      ]
+    }
+  },
+  "beach_club": {
+    "image": "/assets/sections/beach-clubs.jpg",
+    "fr": {
+      "title": "Pourquoi choisir un beach club à Marrakech pour une journée parfaite ?",
+      "blocks": [
+        { "h3": "Un cadre luxueux pour s’évader sans quitter la ville" },
+        { "p": "Les beach clubs marrakchis sont pensés comme de véritables lieux d’évasion. Piscines cristallines, lits balinais, jardins paysagers, espaces lounge… tout est conçu pour offrir confort et esthétique. Que ce soit dans la Palmeraie, à la sortie de la ville ou au cœur de la médina, ces établissements proposent un décor digne des plus belles stations balnéaires, le tout sous le soleil généreux de Marrakech." },
+        { "h3": "Ambiance musicale, cocktails et cuisine raffinée" },
+        { "p": "Chaque beach club a sa propre identité. Certains misent sur une ambiance chill, avec playlist lounge et massages en bord de piscine, d’autres préfèrent les DJ sets live, les brunchs festifs ou les soirées au coucher du soleil. Côté restauration, attendez-vous à une carte soignée, souvent fusion entre cuisine méditerranéenne, marocaine et internationale. Le tout accompagné de jus frais, smoothies ou cocktails signature." }
+      ]
+    },
+    "en": {
+      "title": "Why choose a beach club in Marrakech for the perfect day?",
+      "blocks": [
+        { "h3": "A luxurious setting to escape without leaving the city" },
+        { "p": "Marrakech’s beach clubs are designed as true getaways. Crystal-clear pools, Balinese beds, landscaped gardens, lounge areas… everything is designed for comfort and style. Whether in the Palmeraie, on the outskirts of the city or in the heart of the medina, these venues offer a setting worthy of the finest seaside resorts, all under Marrakech’s generous sunshine." },
+        { "h3": "Music, cocktails and refined cuisine" },
+        { "p": "Every beach club has its own identity. Some go for a chilled atmosphere with lounge playlists and poolside massages, others prefer live DJ sets, festive brunches or sunset parties. On the food side, expect a carefully crafted menu, often a fusion of Mediterranean, Moroccan and international cuisine, served with fresh juices, smoothies or signature cocktails." }
+      ]
+    }
+  },
+  "car_rental": {
+    "image": "/assets/sections/car-rental.jpg",
+    "fr": {
+      "title": "Tout ce qu’il faut savoir avant de louer une voiture à Marrakech",
+      "blocks": [
+        { "h3": "Une voiture pour chaque envie de découverte" },
+        { "p": "Marrakech est une ville aux multiples visages. Pour bien choisir votre voiture de location, pensez avant tout à votre programme :" },
+        {
+          "ul": [
+            "<strong>Vous restez principalement en ville ?</strong> Une petite citadine sera idéale pour se faufiler dans les ruelles et se garer facilement.",
+            "<strong>Vous prévoyez une escapade dans le désert d’Agafay ou la vallée de l’Ourika ?</strong> Misez sur un SUV ou un 4×4 pour plus de confort et de sécurité sur les routes hors-pistes.",
+            "<strong>Envie de vous faire plaisir ?</strong> Certaines agences proposent des voitures de luxe ou des modèles cabriolets, parfaits pour un séjour sous le signe de l’élégance."
+          ]
+        },
+        { "h3": "Pourquoi louer une voiture à Marrakech change votre expérience" },
+        { "p": "Avec une voiture, vous sortez du cadre classique. Vous pouvez partir à l’aube pour une excursion dans l’Atlas, découvrir des villages berbères méconnus, vous perdre dans les paysages lunaires d’Agafay ou improviser un détour vers Essaouira." },
+        { "p": "Louer une voiture à Marrakech, ce n’est pas seulement un moyen de transport, c’est la liberté de voyager à votre rythme, selon vos envies." }
+      ]
+    },
+    "en": {
+      "title": "Everything you need to know before renting a car in Marrakech",
+      "blocks": [
+        { "h3": "A car for every way of exploring" },
+        { "p": "Marrakech is a city with many faces. To choose the right rental car, think first about your plans:" },
+        {
+          "ul": [
+            "<strong>Staying mostly in the city?</strong> A small city car is ideal for weaving through the streets and parking easily.",
+            "<strong>Planning a getaway to the Agafay desert or the Ourika Valley?</strong> Go for an SUV or a 4×4 for more comfort and safety on off-road tracks.",
+            "<strong>Want to treat yourself?</strong> Some agencies offer luxury cars or convertibles, perfect for a stay all about elegance."
+          ]
+        },
+        { "h3": "Why renting a car in Marrakech changes your experience" },
+        { "p": "With a car, you step off the beaten track. You can leave at dawn for a trip into the Atlas, discover little-known Berber villages, lose yourself in the lunar landscapes of Agafay or improvise a detour to Essaouira." },
+        { "p": "Renting a car in Marrakech is not just a way to get around: it is the freedom to travel at your own pace, as you wish." }
+      ]
+    }
+  },
+  "spa": {
+    "image": "/assets/sections/spa.jpg",
+    "fr": {
+      "title": "Ce qu’il faut savoir avant de choisir son spa à Marrakech",
+      "blocks": [
+        { "h3": "Hammam traditionnel ou spa contemporain ?" },
+        { "p": "Deux ambiances, deux expériences :" },
+        {
+          "ul": [
+            "<strong>Le hammam traditionnel</strong> est une immersion dans la culture marocaine. Gommage au savon noir, enveloppement au ghassoul, vapeur chaude : un rituel purifiant et régénérant.",
+            "<strong>Le spa contemporain</strong>, souvent intégré à un hôtel ou un riad de luxe, propose une gamme élargie de soins : massages thaï, réflexologie plantaire, soins du visage, aromathérapie…"
+          ]
+        },
+        { "p": "Selon vos envies, vous pouvez alterner entre ces deux univers pour profiter à la fois de l’authenticité et du confort moderne." },
+        { "h3": "Les soins incontournables à tester" },
+        {
+          "ul": [
+            "<strong>Massage relaxant à l’huile d’argan :</strong> nourrissant et apaisant.",
+            "<strong>Gommage traditionnel au gant kessa :</strong> pour une peau douce et purifiée.",
+            "<strong>Rituel complet « beldi » :</strong> hammam, gommage, enveloppement, massage – un must pour se reconnecter à soi.",
+            "<strong>Soins visage aux produits naturels :</strong> idéal pour revigorer votre teint après une journée au soleil."
+          ]
+        },
+        { "h3": "Un moment à partager… ou à savourer en solo" },
+        { "p": "Se rendre dans un spa à Marrakech, c’est aussi l’occasion de partager un moment privilégié :" },
+        {
+          "ul": [
+            "En couple, pour un massage duo dans une salle privative,",
+            "Entre amies, pour une demi-journée détente autour d’un thé à la menthe,",
+            "Ou en solo, pour simplement faire une pause dans l’effervescence de la médina."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "What to know before choosing your spa in Marrakech",
+      "blocks": [
+        { "h3": "Traditional hammam or contemporary spa?" },
+        { "p": "Two atmospheres, two experiences:" },
+        {
+          "ul": [
+            "<strong>The traditional hammam</strong> is an immersion in Moroccan culture. Black soap scrub, ghassoul clay wrap, hot steam: a purifying and regenerating ritual.",
+            "<strong>The contemporary spa</strong>, often part of a luxury hotel or riad, offers a wider range of treatments: Thai massage, foot reflexology, facials, aromatherapy…"
+          ]
+        },
+        { "p": "Depending on your mood, you can alternate between the two worlds to enjoy both authenticity and modern comfort." },
+        { "h3": "Must-try treatments" },
+        {
+          "ul": [
+            "<strong>Relaxing argan oil massage:</strong> nourishing and soothing.",
+            "<strong>Traditional kessa glove scrub:</strong> for soft, purified skin.",
+            "<strong>Full “beldi” ritual:</strong> hammam, scrub, wrap and massage – a must to reconnect with yourself.",
+            "<strong>Facials with natural products:</strong> ideal to revive your complexion after a day in the sun."
+          ]
+        },
+        { "h3": "A moment to share… or to enjoy on your own" },
+        { "p": "Going to a spa in Marrakech is also a chance to share a special moment:" },
+        {
+          "ul": [
+            "As a couple, with a duo massage in a private room,",
+            "With friends, for a relaxing half-day over mint tea,",
+            "Or on your own, simply to take a break from the bustle of the medina."
+          ]
+        }
+      ]
+    }
+  }
+}

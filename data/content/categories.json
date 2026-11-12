@@ -1,0 +1,354 @@
+[
+  {
+    "id": 100,
+    "lang": "en",
+    "slug": "activities",
+    "type": "activity",
+    "path": "/en/activities/",
+    "name": "Activities",
+    "descriptionHtml": "",
+    "translations": {
+      "en": 100,
+      "fr": 20
+    },
+    "seo": {
+      "title": "Top Activities in Marrakech : experience the city differently",
+      "description": "Discover the best activities in Marrakech. From thrilling Agafay Desert tours and hot air balloon rides to exploring the souks and Gardens",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/activites-uptomarrakech.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com/en/\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/en/activities/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/activities/\",\"name\":\"Activities\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/en/activities/#webpage\",\"url\":\"https://uptomarrakech.com/en/activities/\",\"name\":\"Top Activities in Marrakech : experience the city differently\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"en-US\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/en/activities/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "lang": "fr",
+    "slug": "activites",
+    "type": "activity",
+    "path": "/activites/",
+    "name": "Activities",
+    "descriptionHtml": "",
+    "translations": {
+      "fr": 20,
+      "en": 100
+    },
+    "seo": {
+      "title": "Activités à Marrakech : que faire pour vivre la ville autrement ?",
+      "description": "Découvrez les meilleures activités à faire à Marrakech : aventures, excursions, ateliers artisanaux et expériences authentiques pour tous les goûts.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/activites-uptomarrakech.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/activites/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com\",\"name\":\"Accueil\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/activites/\",\"name\":\"Activities\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/activites/#webpage\",\"url\":\"https://uptomarrakech.com/activites/\",\"name\":\"Activit\\u00e9s \\u00e0 Marrakech : que faire pour vivre la ville autrement ?\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"fr-FR\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/activites/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "lang": "fr",
+    "slug": "beach-club-marrakech",
+    "type": "beach_club",
+    "path": "/beach-club-marrakech/",
+    "name": "Beach club",
+    "descriptionHtml": "",
+    "translations": {
+      "fr": 18,
+      "en": 104
+    },
+    "seo": {
+      "title": "Beach Club à Marrakech : détente, luxe et soleil",
+      "description": "Envie de soleil et de piscine ? Découvrez les meilleurs beach club de Marrakech pour une journée détente entre transats, cocktails et DJ sets.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/Beach-club-uptomarrakeck.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/beach-club-marrakech/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com\",\"name\":\"Accueil\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/beach-club-marrakech/\",\"name\":\"Beach club\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/beach-club-marrakech/#webpage\",\"url\":\"https://uptomarrakech.com/beach-club-marrakech/\",\"name\":\"Beach Club \\u00e0 Marrakech : d\\u00e9tente, luxe et soleil\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"fr-FR\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/beach-club-marrakech/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "lang": "en",
+    "slug": "beach-club",
+    "type": "beach_club",
+    "path": "/en/beach-club/",
+    "name": "Beach Club",
+    "descriptionHtml": "",
+    "translations": {
+      "en": 104,
+      "fr": 18
+    },
+    "seo": {
+      "title": "Best Beach Club in Marrakech: The Ultimate Poolside Experience",
+      "description": "No sea? No problem. Discover famous beach clubs in marrakech, luxurious poolside oases with DJs, fine dining, and a vibrant party atmosphere.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/Beach-club-uptomarrakeck.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com/en/\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/en/beach-club/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/beach-club/\",\"name\":\"Beach Club\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/en/beach-club/#webpage\",\"url\":\"https://uptomarrakech.com/en/beach-club/\",\"name\":\"Best Beach Club in Marrakech: The Ultimate Poolside Experience\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"en-US\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/en/beach-club/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "lang": "fr",
+    "slug": "boites-de-nuit",
+    "type": "night_club",
+    "path": "/boites-de-nuit/",
+    "name": "Boîtes de nuit",
+    "descriptionHtml": "",
+    "translations": {
+      "fr": 21,
+      "en": 106
+    },
+    "seo": {
+      "title": "Boites de nuit à Marrakech : vivez la nuit dans la ville ocre",
+      "description": "Envie de faire la fête ? Découvrez les meilleures boites de nuit à Marrakech : ambiance, DJ internationaux, rooftops, et clubs emblématiques de la ville.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/Boite-de-nuit-uptomarrakech.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/boites-de-nuit/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com\",\"name\":\"Accueil\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/boites-de-nuit/\",\"name\":\"Bo\\u00eetes de nuit\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/boites-de-nuit/#webpage\",\"url\":\"https://uptomarrakech.com/boites-de-nuit/\",\"name\":\"Boites de nuit \\u00e0 Marrakech : vivez la nuit dans la ville ocre\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"fr-FR\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/boites-de-nuit/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "lang": "en",
+    "slug": "car-rental",
+    "type": "car_rental",
+    "path": "/en/car-rental/",
+    "name": "Car rental",
+    "descriptionHtml": "Car Rental in Marrakech\nUpToMarrakech offers a wide selection of car rentals in Marrakech, from luxury SUVs to sporty city cars. Explore the city, the Atlas Mountains or the Agafay desert behind the wheel of the model that suits you best.\nOur most requested models in Marrakech\n\n<a href=\"/en/car-rental/range-rover-vogue/\">Range Rover Vogue</a> — the iconic luxury SUV\n<a href=\"/en/car-rental/porsche-macan/\">Porsche Macan</a> — the premium sports SUV\n<a href=\"/en/car-rental/mercedes-g-class/\">Mercedes G-Class</a> — the off-road icon\n<a href=\"/en/car-rental/audi-rs3/\">Audi RS3</a> — the sporty compact\n<a href=\"/en/car-rental/mercedes-vito/\">Mercedes Vito</a> — the spacious van for groups\n\nBook your car rental in Marrakech through UpToMarrakech: our team arranges every detail of your rental.",
+    "translations": {
+      "en": 102,
+      "fr": 57
+    },
+    "seo": {
+      "title": "Car Rental in Marrakech : Your Guide to Freedom & Exploration",
+      "description": "Find the best car rental deals in Marrakech. Enjoy a wide selection of vehicles, from small models to SUVs.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/location-de-voiture-uptomarrakeck.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com/en/\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/en/car-rental/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/car-rental/\",\"name\":\"Car rental\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/en/car-rental/#webpage\",\"url\":\"https://uptomarrakech.com/en/car-rental/\",\"name\":\"Car Rental in Marrakech : Your Guide to Freedom &amp; Exploration\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"en-US\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/en/car-rental/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "lang": "en",
+    "slug": "event-organization",
+    "type": "event",
+    "path": "/en/event-organization/",
+    "name": "Event Organization",
+    "descriptionHtml": "",
+    "translations": {
+      "en": 93,
+      "fr": 49
+    },
+    "seo": {
+      "title": "Event Organization - Up To Marrakech",
+      "description": "Event Organization",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/02/organization-de-marriage-a-marrakech.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com/en/\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/en/event-organization/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/event-organization/\",\"name\":\"Event Organization\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/en/event-organization/#webpage\",\"url\":\"https://uptomarrakech.com/en/event-organization/\",\"name\":\"Event Organization - Up To Marrakech\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"en-US\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/en/event-organization/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "lang": "fr",
+    "slug": "location-de-voiture",
+    "type": "car_rental",
+    "path": "/location-de-voiture/",
+    "name": "Location de voiture",
+    "descriptionHtml": "Location de voiture à Marrakech\nUpToMarrakech vous propose un large choix de voitures de location à Marrakech, du SUV de luxe à la citadine sportive. Explorez la ville, les montagnes de l’Atlas ou le désert d’Agafay au volant du modèle qui vous ressemble.\nNos modèles les plus demandés à Marrakech\n\n<a href=\"/location-de-voiture/range-rover-vogue/\">Range Rover Vogue</a> — le SUV de luxe emblématique\n<a href=\"/location-de-voiture/porsche-macan-marrakech/\">Porsche Macan</a> — le SUV sportif premium\n<a href=\"/location-de-voiture/mercedes-class-g-marrakech/\">Mercedes Classe G</a> — l’icône tout-terrain\n<a href=\"/location-de-voiture/audi-rs3-marrakech/\">Audi RS3</a> — la compacte sportive\n<a href=\"/location-de-voiture/mercedes-vito-marrakech/\">Mercedes Vito</a> — le van spacieux pour les groupes\n\nRéservez votre location de voiture à Marrakech via UpToMarrakech : notre équipe organise chaque détail de votre location.",
+    "translations": {
+      "fr": 57,
+      "en": 102
+    },
+    "seo": {
+      "title": "Location de voiture Marrakech : louez le véhicule qu’il vous faut",
+      "description": "Réservez votre location de voiture à Marrakech en toute simplicité. Profitez d’un large choix de véhicules, des petits modèles aux SUV.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/location-de-voiture-uptomarrakeck.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/location-de-voiture/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com\",\"name\":\"Accueil\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/location-de-voiture/\",\"name\":\"Location de voiture\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/location-de-voiture/#webpage\",\"url\":\"https://uptomarrakech.com/location-de-voiture/\",\"name\":\"Location de voiture Marrakech : louez le v\\u00e9hicule qu\\u2019il vous faut\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"fr-FR\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/location-de-voiture/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "lang": "en",
+    "slug": "night-club",
+    "type": "night_club",
+    "path": "/en/night-club/",
+    "name": "Night club",
+    "descriptionHtml": "",
+    "translations": {
+      "en": 106,
+      "fr": 21
+    },
+    "seo": {
+      "title": "Night Club Marrakech : The Ultimate Guide to Marrakech Nightlife",
+      "description": "Discover the most electrifying night clubs in Marrakech. From the chic venues of Hivernage to exclusive parties, find where the city comes alive after dark.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/Boite-de-nuit-uptomarrakech.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com/en/\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/en/night-club/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/night-club/\",\"name\":\"Night club\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/en/night-club/#webpage\",\"url\":\"https://uptomarrakech.com/en/night-club/\",\"name\":\"Night Club Marrakech : The Ultimate Guide to Marrakech Nightlife\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"en-US\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/en/night-club/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "lang": "fr",
+    "slug": "organisation-evenements",
+    "type": "event",
+    "path": "/organisation-evenements/",
+    "name": "Organisation D'événements",
+    "descriptionHtml": "Organisez votre événement idéal à Marrakech avec UpToMarrakech. Que ce soit une villa pour mariage à Marrakech, un anniversaire à Marrakech ou un enterrement de vie de célibataire à Marrakech, nous nous occupons de tout. Choix du lieu, décoration, traiteur, animations, chaque détail est pensé pour une expérience sur-mesure. Célébrez dans un riad somptueux, un campement dans le désert ou une villa privée avec des services haut de gamme.",
+    "translations": {
+      "fr": 49,
+      "en": 93
+    },
+    "seo": {
+      "title": "Up To Marrakech - Organisation D'événements - activités à marrakech",
+      "description": "Confiez l'organisation de votre événement à Marrakech. Mariage, anniversaire ou enterrement de vie de célibataire, profitez d'un service sur-mesure.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/02/organization-de-marriage-a-marrakech.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/organisation-evenements/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com\",\"name\":\"Accueil\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/organisation-evenements/\",\"name\":\"Organisation D'\\u00e9v\\u00e9nements\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/organisation-evenements/#webpage\",\"url\":\"https://uptomarrakech.com/organisation-evenements/\",\"name\":\"Up To Marrakech - Organisation D&#039;\\u00e9v\\u00e9nements - activit\\u00e9s \\u00e0 marrakech\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"fr-FR\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/organisation-evenements/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "lang": "fr",
+    "slug": "restaurants",
+    "type": "restaurant",
+    "path": "/restaurants/",
+    "name": "Restaurants",
+    "descriptionHtml": "Réserver une table dans les meilleurs restaurants de Marrakech\nUpToMarrakech réserve votre table dans les restaurants les plus demandés de Marrakech, à Guéliz, à l'Hivernage comme dans la Médina. Une seule demande suffit : nous nous occupons de la disponibilité et de la confirmation.\nLes adresses les plus demandées\n\n<a href=\"/restaurants/azar-restaurant-marrakech/\">Azar</a>\n<a href=\"/restaurants/lao-marrakech/\">LaÔ Marrakech</a>\n<a href=\"/restaurants/lotus-club-marrakech/\">Lotus Club</a>\n<a href=\"/restaurants/le-gaillard-marrakech/\">Le Gaillard</a>\n<a href=\"/restaurants/ibrahim-pacha/\">Ibrahim Pacha</a>\n\nDites-nous la date, l'heure et le nombre de convives : nous confirmons votre table.",
+    "translations": {
+      "fr": 17,
+      "en": 97
+    },
+    "seo": {
+      "title": "Restaurants Marrakech : les meilleures adresses de la ville rouge",
+      "description": "Envie de savourer la cuisine marocaine ou internationale ? Explorez notre sélection des restaurants à Marrakech pour une expérience culinaire inoubliable.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/restaurant-uptomarrakech-1.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/restaurants/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com\",\"name\":\"Accueil\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/restaurants/\",\"name\":\"Restaurants\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/restaurants/#webpage\",\"url\":\"https://uptomarrakech.com/restaurants/\",\"name\":\"Restaurants Marrakech : les meilleures adresses de la ville rouge\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"fr-FR\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/restaurants/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "lang": "en",
+    "slug": "restaurants",
+    "type": "restaurant",
+    "path": "/en/restaurants/",
+    "name": "Restaurants",
+    "descriptionHtml": "<h2>Book a table in the best restaurants in Marrakech</h2>\n<p>UpToMarrakech books your table at the most sought-after restaurants in Marrakech, in Gueliz, Hivernage and the Medina. One request is enough: we handle availability and confirmation.</p>\n<h3>Most requested addresses</h3>\n<ul>\n<li><a href=\"/en/restaurants/azar/\">Azar</a></li>\n<li><a href=\"/en/restaurants/lao-marrakech/\">LaÔ Marrakech</a></li>\n<li><a href=\"/en/restaurants/le-gaillard/\">Le Gaillard</a></li>\n<li><a href=\"/en/restaurants/ibrahim-pacha/\">Ibrahim Pacha</a></li>\n<li><a href=\"/en/restaurants/buddha-bar/\">Buddha Bar</a></li>\n</ul>\n<p>Tell us the date, time and number of guests and we will confirm your table.</p>",
+    "translations": {
+      "en": 97,
+      "fr": 17
+    },
+    "seo": {
+      "title": "Best Restaurants in Marrakech : A Guide to the City's Top Tables",
+      "description": "Discover the best restaurants in Marrakech. From traditional tagine in the Medina to chic rooftop terraces in Gueliz, find your perfect dining experience.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/restaurant-uptomarrakech-1.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com/en/\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/en/restaurants/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/restaurants/\",\"name\":\"Restaurants\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/en/restaurants/#webpage\",\"url\":\"https://uptomarrakech.com/en/restaurants/\",\"name\":\"Best Restaurants in Marrakech : A Guide to the City&#039;s Top Tables\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"en-US\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/en/restaurants/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "lang": "fr",
+    "slug": "spas",
+    "type": "spa",
+    "path": "/spas/",
+    "name": "Spa",
+    "descriptionHtml": "Spa et hammam à Marrakech\nUpToMarrakech réserve vos soins dans les spas et hammams de Marrakech que nous avons retenus pour la qualité de leur accueil et de leurs prestations.\nNos adresses\n\n<a href=\"/spas/les-bains-de-lalhambra/\">Les Bains de l'Alhambra</a>\n<a href=\"/spas/la-maison-du-tui-na/\">La Maison du Tui Na</a>\n<a href=\"/spas/yemaya-spa/\">Yemaya Spa</a>\n<a href=\"/spas/marajah-spa-marrakech/\">Marajah Spa</a>\n\nIndiquez-nous le soin souhaité et vos disponibilités : nous prenons le rendez-vous pour vous.",
+    "translations": {
+      "fr": 22,
+      "en": 108
+    },
+    "seo": {
+      "title": "Spas à Marrakech : détente et bien-être au cœur de la ville rouge",
+      "description": "Découvrez les meilleurs spas à Marrakech pour un moment de bien-être inoubliable. Évadez-vous, le temps d’une parenthèse sensorielle.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/spa-uptomarrakeck.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/spas/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com\",\"name\":\"Accueil\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/spas/\",\"name\":\"Spa\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/spas/#webpage\",\"url\":\"https://uptomarrakech.com/spas/\",\"name\":\"Spas \\u00e0 Marrakech : d\\u00e9tente et bien-\\u00eatre au c\\u0153ur de la ville rouge\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"fr-FR\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/spas/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "lang": "en",
+    "slug": "spas",
+    "type": "spa",
+    "path": "/en/spas/",
+    "name": "Spas",
+    "descriptionHtml": "<h2>Spa and hammam in Marrakech</h2>\n<p>UpToMarrakech books your treatments at the spas and hammams in Marrakech we have selected for the quality of their welcome and their care.</p>\n<h3>Our addresses</h3>\n<ul>\n<li><a href=\"/en/spas/alhambra-baths/\">Alhambra Baths</a></li>\n<li><a href=\"/en/spas/the-house-of-tui-na/\">The House of Tui Na</a></li>\n<li><a href=\"/en/spas/yemaya-spa/\">Yemaya Spa</a></li>\n<li><a href=\"/en/spas/marajah-spa/\">Marajah Spa</a></li>\n</ul>\n<p>Tell us which treatment you would like and when: we will make the appointment for you.</p>",
+    "translations": {
+      "en": 108,
+      "fr": 22
+    },
+    "seo": {
+      "title": "Spas in Marrakech: Your Guide to the Best Hammams & Massages",
+      "description": "Indulge in the ultimate relaxation at the best spas in Marrakech. Discover traditional Moroccan hammam rituals, argan oil massages, and luxury wellness retreats.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/spa-uptomarrakeck.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com/en/\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/en/spas/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/spas/\",\"name\":\"Spas\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/en/spas/#webpage\",\"url\":\"https://uptomarrakech.com/en/spas/\",\"name\":\"Spas in Marrakech: Your Guide to the Best Hammams &amp; Massages\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"en-US\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/en/spas/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "lang": "fr",
+    "slug": "location-villas",
+    "type": "accommodation",
+    "path": "/location-villas/",
+    "name": "Villas",
+    "descriptionHtml": "Location de villa à Marrakech\nUpToMarrakech sélectionne et réserve pour vous des villas privées à Marrakech, de la maison intimiste au palais pour grands groupes. Nos équipes s'occupent de la mise en relation, de la réservation et de l'organisation sur place.\nNos villas les plus demandées\n\n<a href=\"/location-villas/villa-afourar/\">Villa Afourar</a>\n<a href=\"/location-villas/villa-dar-zineb/\">Villa Dar Zineb</a>\n<a href=\"/location-villas/villa-kech-marrakech/\">Villa Kech</a>\n<a href=\"/location-villas/villa-noria-marrakech/\">Villa Noria</a>\n<a href=\"/location-villas/villa-sultan/\">Villa Sultan</a>\n\nIndiquez-nous vos dates et le nombre de personnes : nous vous proposons les villas disponibles correspondant à votre séjour.",
+    "translations": {
+      "fr": 23,
+      "en": 88
+    },
+    "seo": {
+      "title": "Location villas à Marrakech : Luxe, confort et intimité",
+      "description": "Découvrez notre sélection de location de villas à Marrakech : avec piscine, jardin, personnel de maison pour un séjour inoubliable entre palmeraie & médina.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/Villas-uptomarrakech.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/location-villas/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com\",\"name\":\"Accueil\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/location-villas/\",\"name\":\"Villas\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/location-villas/#webpage\",\"url\":\"https://uptomarrakech.com/location-villas/\",\"name\":\"Location villas \\u00e0 Marrakech : Luxe, confort et intimit\\u00e9\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"fr-FR\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/location-villas/#breadcrumb\"}}]}"
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "lang": "en",
+    "slug": "rent-villa",
+    "type": "accommodation",
+    "path": "/en/rent-villa/",
+    "name": "Villas",
+    "descriptionHtml": "Villa rental in Marrakech\nUpToMarrakech selects and books private villas in Marrakech, from intimate houses to palaces for large groups. Our team handles the introduction, the booking and the on-site organisation.\nOur most requested villas\n\n<a href=\"/en/rent-villa/villa-zaytouna/\">Villa Zaytouna</a>\n<a href=\"/en/rent-villa/villa-marrakchia/\">Villa Marrakchia</a>\n<a href=\"/en/rent-villa/nora-palace/\">Nora Palace</a>\n<a href=\"/en/rent-villa/villa-sultan/\">Villa Sultan</a>\n<a href=\"/en/rent-villa/villa-majo/\">Villa Majo</a>\n\nTell us your dates and party size and we will come back with the villas available for your stay.",
+    "translations": {
+      "en": 88,
+      "fr": 23
+    },
+    "seo": {
+      "title": "Rent a Villa in Marrakech : Your Exclusive Moroccan Oasis",
+      "description": "Discover the finest selection of villas to rent in Marrakech. From luxurious riads to private poolside retreats, find your perfect Moroccan escape.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogImage": "/wp-content/uploads/2025/06/Villas-uptomarrakech.jpg",
+      "jsonLd": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://uptomarrakech.com/#organization\",\"name\":\"Up To Marrakech\",\"sameAs\":[\"https://www.facebook.com/profile.php?id=61560347476465\",\"https://www.instagram.com/uptomarrakech/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://uptomarrakech.com/#website\",\"url\":\"https://uptomarrakech.com/en/\",\"name\":\"Up To Marrakech\",\"alternateName\":\"uptomarrakech\",\"publisher\":{\"@id\":\"https://uptomarrakech.com/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://uptomarrakech.com/en/rent-villa/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"@id\":\"https://uptomarrakech.com/en/rent-villa/\",\"name\":\"Villas\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https://uptomarrakech.com/en/rent-villa/#webpage\",\"url\":\"https://uptomarrakech.com/en/rent-villa/\",\"name\":\"Rent a Villa in Marrakech : Your Exclusive Moroccan Oasis\",\"isPartOf\":{\"@id\":\"https://uptomarrakech.com/#website\"},\"inLanguage\":\"en-US\",\"breadcrumb\":{\"@id\":\"https://uptomarrakech.com/en/rent-villa/#breadcrumb\"}}]}"
+      ]
+    }
+  }
+]

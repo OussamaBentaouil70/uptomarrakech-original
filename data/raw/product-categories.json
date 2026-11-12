@@ -1,0 +1,989 @@
+[
+  {
+    "id": 100,
+    "count": 7,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/activities/",
+    "name": "Activities",
+    "slug": "activities",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 100,
+      "fr": 20
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/100",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=100"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "count": 8,
+    "description": "",
+    "link": "https://uptomarrakech.com/activites/",
+    "name": "Activities",
+    "slug": "activites",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 3,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 20,
+      "en": 100
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/20",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=20"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "count": 5,
+    "description": "",
+    "link": "https://uptomarrakech.com/beach-club-marrakech/",
+    "name": "Beach club",
+    "slug": "beach-club-marrakech",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 5,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 18,
+      "en": 104
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/18",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=18"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "count": 4,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/beach-club/",
+    "name": "Beach Club",
+    "slug": "beach-club",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 104,
+      "fr": 18
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/104",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=104"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "count": 3,
+    "description": "",
+    "link": "https://uptomarrakech.com/boites-de-nuit/",
+    "name": "Boîtes de nuit",
+    "slug": "boites-de-nuit",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 6,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 21,
+      "en": 106
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/21",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=21"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "count": 15,
+    "description": "Car Rental in Marrakech\nUpToMarrakech offers a wide selection of car rentals in Marrakech, from luxury SUVs to sporty city cars. Explore the city, the Atlas Mountains or the Agafay desert behind the wheel of the model that suits you best.\nOur most requested models in Marrakech\n\n<a href=\"/en/car-rental/range-rover-vogue/\">Range Rover Vogue</a> — the iconic luxury SUV\n<a href=\"/en/car-rental/porsche-macan/\">Porsche Macan</a> — the premium sports SUV\n<a href=\"/en/car-rental/mercedes-g-class/\">Mercedes G-Class</a> — the off-road icon\n<a href=\"/en/car-rental/audi-rs3/\">Audi RS3</a> — the sporty compact\n<a href=\"/en/car-rental/mercedes-vito/\">Mercedes Vito</a> — the spacious van for groups\n\nBook your car rental in Marrakech through UpToMarrakech: our team arranges every detail of your rental.",
+    "link": "https://uptomarrakech.com/en/car-rental/",
+    "name": "Car rental",
+    "slug": "car-rental",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 102,
+      "fr": 57
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/102",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=102"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "count": 2,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/event-organization/",
+    "name": "Event Organization",
+    "slug": "event-organization",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 93,
+      "fr": 49
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/93",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=93"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "count": 15,
+    "description": "Location de voiture à Marrakech\nUpToMarrakech vous propose un large choix de voitures de location à Marrakech, du SUV de luxe à la citadine sportive. Explorez la ville, les montagnes de l’Atlas ou le désert d’Agafay au volant du modèle qui vous ressemble.\nNos modèles les plus demandés à Marrakech\n\n<a href=\"/location-de-voiture/range-rover-vogue/\">Range Rover Vogue</a> — le SUV de luxe emblématique\n<a href=\"/location-de-voiture/porsche-macan-marrakech/\">Porsche Macan</a> — le SUV sportif premium\n<a href=\"/location-de-voiture/mercedes-class-g-marrakech/\">Mercedes Classe G</a> — l’icône tout-terrain\n<a href=\"/location-de-voiture/audi-rs3-marrakech/\">Audi RS3</a> — la compacte sportive\n<a href=\"/location-de-voiture/mercedes-vito-marrakech/\">Mercedes Vito</a> — le van spacieux pour les groupes\n\nRéservez votre location de voiture à Marrakech via UpToMarrakech : notre équipe organise chaque détail de votre location.",
+    "link": "https://uptomarrakech.com/location-de-voiture/",
+    "name": "Location de voiture",
+    "slug": "location-de-voiture",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 57,
+      "en": 102
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/57",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=57"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "count": 3,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/night-club/",
+    "name": "Night club",
+    "slug": "night-club",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 106,
+      "fr": 21
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/106",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=106"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 821,
+    "count": 0,
+    "description": "",
+    "link": "https://uptomarrakech.com/non-classe/",
+    "name": "Non classé",
+    "slug": "non-classe",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 821,
+      "en": 823
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/821",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=821"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 823,
+    "count": 0,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/non-classe/",
+    "name": "Non classé",
+    "slug": "non-classe",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 823,
+      "fr": 821
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/823",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=823"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "count": 2,
+    "description": "Organisez votre événement idéal à Marrakech avec UpToMarrakech. Que ce soit une villa pour mariage à Marrakech, un anniversaire à Marrakech ou un enterrement de vie de célibataire à Marrakech, nous nous occupons de tout. Choix du lieu, décoration, traiteur, animations, chaque détail est pensé pour une expérience sur-mesure. Célébrez dans un riad somptueux, un campement dans le désert ou une villa privée avec des services haut de gamme.",
+    "link": "https://uptomarrakech.com/organisation-evenements/",
+    "name": "Organisation D'événements",
+    "slug": "organisation-evenements",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 49,
+      "en": 93
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/49",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=49"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "count": 20,
+    "description": "Réserver une table dans les meilleurs restaurants de Marrakech\nUpToMarrakech réserve votre table dans les restaurants les plus demandés de Marrakech, à Guéliz, à l'Hivernage comme dans la Médina. Une seule demande suffit : nous nous occupons de la disponibilité et de la confirmation.\nLes adresses les plus demandées\n\n<a href=\"/restaurants/azar-restaurant-marrakech/\">Azar</a>\n<a href=\"/restaurants/lao-marrakech/\">LaÔ Marrakech</a>\n<a href=\"/restaurants/lotus-club-marrakech/\">Lotus Club</a>\n<a href=\"/restaurants/le-gaillard-marrakech/\">Le Gaillard</a>\n<a href=\"/restaurants/ibrahim-pacha/\">Ibrahim Pacha</a>\n\nDites-nous la date, l'heure et le nombre de convives : nous confirmons votre table.",
+    "link": "https://uptomarrakech.com/restaurants/",
+    "name": "Restaurants",
+    "slug": "restaurants",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 2,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 17,
+      "en": 97
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/17",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=17"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "count": 19,
+    "description": "<h2>Book a table in the best restaurants in Marrakech</h2>\n<p>UpToMarrakech books your table at the most sought-after restaurants in Marrakech, in Gueliz, Hivernage and the Medina. One request is enough: we handle availability and confirmation.</p>\n<h3>Most requested addresses</h3>\n<ul>\n<li><a href=\"/en/restaurants/azar/\">Azar</a></li>\n<li><a href=\"/en/restaurants/lao-marrakech/\">LaÔ Marrakech</a></li>\n<li><a href=\"/en/restaurants/le-gaillard/\">Le Gaillard</a></li>\n<li><a href=\"/en/restaurants/ibrahim-pacha/\">Ibrahim Pacha</a></li>\n<li><a href=\"/en/restaurants/buddha-bar/\">Buddha Bar</a></li>\n</ul>\n<p>Tell us the date, time and number of guests and we will confirm your table.</p>",
+    "link": "https://uptomarrakech.com/en/restaurants/",
+    "name": "Restaurants",
+    "slug": "restaurants",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 97,
+      "fr": 17
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/97",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=97"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "count": 4,
+    "description": "Spa et hammam à Marrakech\nUpToMarrakech réserve vos soins dans les spas et hammams de Marrakech que nous avons retenus pour la qualité de leur accueil et de leurs prestations.\nNos adresses\n\n<a href=\"/spas/les-bains-de-lalhambra/\">Les Bains de l'Alhambra</a>\n<a href=\"/spas/la-maison-du-tui-na/\">La Maison du Tui Na</a>\n<a href=\"/spas/yemaya-spa/\">Yemaya Spa</a>\n<a href=\"/spas/marajah-spa-marrakech/\">Marajah Spa</a>\n\nIndiquez-nous le soin souhaité et vos disponibilités : nous prenons le rendez-vous pour vous.",
+    "link": "https://uptomarrakech.com/spas/",
+    "name": "Spa",
+    "slug": "spas",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 7,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 22,
+      "en": 108
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/22",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=22"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "count": 4,
+    "description": "<h2>Spa and hammam in Marrakech</h2>\n<p>UpToMarrakech books your treatments at the spas and hammams in Marrakech we have selected for the quality of their welcome and their care.</p>\n<h3>Our addresses</h3>\n<ul>\n<li><a href=\"/en/spas/alhambra-baths/\">Alhambra Baths</a></li>\n<li><a href=\"/en/spas/the-house-of-tui-na/\">The House of Tui Na</a></li>\n<li><a href=\"/en/spas/yemaya-spa/\">Yemaya Spa</a></li>\n<li><a href=\"/en/spas/marajah-spa/\">Marajah Spa</a></li>\n</ul>\n<p>Tell us which treatment you would like and when: we will make the appointment for you.</p>",
+    "link": "https://uptomarrakech.com/en/spas/",
+    "name": "Spas",
+    "slug": "spas",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 108,
+      "fr": 22
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/108",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=108"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "count": 0,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/uncategorized-en/",
+    "name": "Uncategorized",
+    "slug": "uncategorized-en",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 66
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/66",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=66"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "count": 23,
+    "description": "Location de villa à Marrakech\nUpToMarrakech sélectionne et réserve pour vous des villas privées à Marrakech, de la maison intimiste au palais pour grands groupes. Nos équipes s'occupent de la mise en relation, de la réservation et de l'organisation sur place.\nNos villas les plus demandées\n\n<a href=\"/location-villas/villa-afourar/\">Villa Afourar</a>\n<a href=\"/location-villas/villa-dar-zineb/\">Villa Dar Zineb</a>\n<a href=\"/location-villas/villa-kech-marrakech/\">Villa Kech</a>\n<a href=\"/location-villas/villa-noria-marrakech/\">Villa Noria</a>\n<a href=\"/location-villas/villa-sultan/\">Villa Sultan</a>\n\nIndiquez-nous vos dates et le nombre de personnes : nous vous proposons les villas disponibles correspondant à votre séjour.",
+    "link": "https://uptomarrakech.com/location-villas/",
+    "name": "Villas",
+    "slug": "location-villas",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 1,
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 23,
+      "en": 88
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/23",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=23"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "count": 23,
+    "description": "Villa rental in Marrakech\nUpToMarrakech selects and books private villas in Marrakech, from intimate houses to palaces for large groups. Our team handles the introduction, the booking and the on-site organisation.\nOur most requested villas\n\n<a href=\"/en/rent-villa/villa-zaytouna/\">Villa Zaytouna</a>\n<a href=\"/en/rent-villa/villa-marrakchia/\">Villa Marrakchia</a>\n<a href=\"/en/rent-villa/nora-palace/\">Nora Palace</a>\n<a href=\"/en/rent-villa/villa-sultan/\">Villa Sultan</a>\n<a href=\"/en/rent-villa/villa-majo/\">Villa Majo</a>\n\nTell us your dates and party size and we will come back with the villas available for your stay.",
+    "link": "https://uptomarrakech.com/en/rent-villa/",
+    "name": "Villas",
+    "slug": "rent-villa",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 88,
+      "fr": 23
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat/88",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/product?product_cat=88"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

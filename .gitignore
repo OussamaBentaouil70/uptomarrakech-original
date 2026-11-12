@@ -1,0 +1,30 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+
+# misc
+.DS_Store
+*.pem
+*firebase-adminsdk*.json
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files / local secrets
+.env*
+.dev.vars
+.wrangler/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# reference copies from mymarrakechtrip (not part of the site)
+_reference/

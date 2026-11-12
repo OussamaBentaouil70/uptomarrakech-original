@@ -1,0 +1,394 @@
+[
+  {
+    "id": 50,
+    "count": 1,
+    "description": "",
+    "link": "https://uptomarrakech.com/tag/agafay-marrakech/",
+    "name": "agafay marrakech",
+    "slug": "agafay-marrakech",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 50,
+      "en": 794
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags/50",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?tags=50"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 794,
+    "count": 1,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/tag/agafay-marrakech___en/",
+    "name": "agafay marrakech",
+    "slug": "agafay-marrakech",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "lang": "en",
+    "translations": {
+      "en": 794,
+      "fr": 50
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags/794",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?tags=794"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "count": 1,
+    "description": "",
+    "link": "https://uptomarrakech.com/tag/club-marrakech/",
+    "name": "club Marrakech ",
+    "slug": "club-marrakech",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 54,
+      "en": 748
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags/54",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?tags=54"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 748,
+    "count": 1,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/tag/club-marrakech___en/",
+    "name": "club Marrakech",
+    "slug": "club-marrakech",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "lang": "en",
+    "translations": {
+      "en": 748,
+      "fr": 54
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags/748",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?tags=748"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 791,
+    "count": 1,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/tag/marrakech-hot-air-ballooning/",
+    "name": "marrakech hot-air ballooning",
+    "slug": "marrakech-hot-air-ballooning",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "lang": "en",
+    "translations": {
+      "en": 791,
+      "fr": 52
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags/791",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?tags=791"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "count": 1,
+    "description": "",
+    "link": "https://uptomarrakech.com/tag/marrakech-montgolfiere/",
+    "name": "marrakech montgolfière",
+    "slug": "marrakech-montgolfiere",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 52,
+      "en": 791
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags/52",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?tags=52"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 788,
+    "count": 1,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/tag/restaurant-marrakech-luxe___en/",
+    "name": "restaurant marrakech luxe",
+    "slug": "restaurant-marrakech-luxe",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "lang": "en",
+    "translations": {
+      "en": 788,
+      "fr": 51
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags/788",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?tags=788"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "count": 1,
+    "description": "",
+    "link": "https://uptomarrakech.com/tag/restaurant-marrakech-luxe/",
+    "name": "restaurant marrakech luxe",
+    "slug": "restaurant-marrakech-luxe",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 51,
+      "en": 788
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags/51",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?tags=51"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

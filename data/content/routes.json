@@ -1,0 +1,1220 @@
+[
+  {
+    "path": "/location-de-voiture/range-rover-marrakech/",
+    "type": "page",
+    "id": 5355,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/range-rover-marrakech/",
+    "type": "page",
+    "id": 5354,
+    "lang": "en"
+  },
+  {
+    "path": "/en/tourist-transportation/",
+    "type": "transport",
+    "id": 2319,
+    "lang": "en"
+  },
+  {
+    "path": "/transport-touristique/",
+    "type": "transport",
+    "id": 1878,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/contact-us/",
+    "type": "contact",
+    "id": 2256,
+    "lang": "en"
+  },
+  {
+    "path": "/contactez-nous/",
+    "type": "contact",
+    "id": 442,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/",
+    "type": "home",
+    "id": 2218,
+    "lang": "en"
+  },
+  {
+    "path": "/",
+    "type": "home",
+    "id": 1917,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/blog/",
+    "type": "blog",
+    "id": 2438,
+    "lang": "en"
+  },
+  {
+    "path": "/blog/",
+    "type": "blog",
+    "id": 206,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/activities/",
+    "type": "category",
+    "id": 100,
+    "lang": "en"
+  },
+  {
+    "path": "/activites/",
+    "type": "category",
+    "id": 20,
+    "lang": "fr"
+  },
+  {
+    "path": "/beach-club-marrakech/",
+    "type": "category",
+    "id": 18,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/beach-club/",
+    "type": "category",
+    "id": 104,
+    "lang": "en"
+  },
+  {
+    "path": "/boites-de-nuit/",
+    "type": "category",
+    "id": 21,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/",
+    "type": "category",
+    "id": 102,
+    "lang": "en"
+  },
+  {
+    "path": "/en/event-organization/",
+    "type": "category",
+    "id": 93,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/",
+    "type": "category",
+    "id": 57,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/night-club/",
+    "type": "category",
+    "id": 106,
+    "lang": "en"
+  },
+  {
+    "path": "/organisation-evenements/",
+    "type": "category",
+    "id": 49,
+    "lang": "fr"
+  },
+  {
+    "path": "/restaurants/",
+    "type": "category",
+    "id": 17,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/",
+    "type": "category",
+    "id": 97,
+    "lang": "en"
+  },
+  {
+    "path": "/spas/",
+    "type": "category",
+    "id": 22,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/spas/",
+    "type": "category",
+    "id": 108,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/",
+    "type": "category",
+    "id": 23,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/",
+    "type": "category",
+    "id": 88,
+    "lang": "en"
+  },
+  {
+    "path": "/en/event-organization/birthday-parties-in-marrakech/",
+    "type": "product",
+    "id": 3652,
+    "lang": "en"
+  },
+  {
+    "path": "/activites-a-marrakech/organisation-danniversaire-a-marrakech/",
+    "type": "product",
+    "id": 3613,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/event-organization/wedding-planning-in-marrakech/",
+    "type": "product",
+    "id": 3655,
+    "lang": "en"
+  },
+  {
+    "path": "/activites-a-marrakech/organisation-de-mariage-a-marrakech/",
+    "type": "product",
+    "id": 3611,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/spas/marajah-spa/",
+    "type": "product",
+    "id": 3472,
+    "lang": "en"
+  },
+  {
+    "path": "/spas/marajah-spa-marrakech/",
+    "type": "product",
+    "id": 3331,
+    "lang": "fr"
+  },
+  {
+    "path": "/restaurants/lotus-club-marrakech/",
+    "type": "product",
+    "id": 3326,
+    "lang": "fr"
+  },
+  {
+    "path": "/beach-club/nikki-beach-marrakech/",
+    "type": "product",
+    "id": 3317,
+    "lang": "fr"
+  },
+  {
+    "path": "/activites/balade-en-caleche-marrakech/",
+    "type": "product",
+    "id": 3313,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/activities/pottery-classes/",
+    "type": "product",
+    "id": 3010,
+    "lang": "en"
+  },
+  {
+    "path": "/activites/cours-de-poterie-a-marrakech/",
+    "type": "product",
+    "id": 1466,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/activities/day-trip-to-the-ourika-valley/",
+    "type": "product",
+    "id": 3013,
+    "lang": "en"
+  },
+  {
+    "path": "/activites/vallee-de-l-ourika/",
+    "type": "product",
+    "id": 1431,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/activities/day-trip-to-essaouira/",
+    "type": "product",
+    "id": 3023,
+    "lang": "en"
+  },
+  {
+    "path": "/activites/excursion-dune-journee-a-essaouira/",
+    "type": "product",
+    "id": 1427,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/t-roc/",
+    "type": "product",
+    "id": 3073,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/location-t-roc/",
+    "type": "product",
+    "id": 1257,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/touareg/",
+    "type": "product",
+    "id": 3079,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/location-touareg/",
+    "type": "product",
+    "id": 1250,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/range-rover-vogue/",
+    "type": "product",
+    "id": 3087,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/range-rover-vogue/",
+    "type": "product",
+    "id": 1242,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/range-rover-sport/",
+    "type": "product",
+    "id": 3096,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/range-rover-sport/",
+    "type": "product",
+    "id": 1237,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/range-rover-baby-velar/",
+    "type": "product",
+    "id": 3103,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/range-rover-velar-marrakech/",
+    "type": "product",
+    "id": 1230,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/porsche-macan/",
+    "type": "product",
+    "id": 3110,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/porsche-macan-marrakech/",
+    "type": "product",
+    "id": 1224,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/mercedes-vito/",
+    "type": "product",
+    "id": 3118,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/mercedes-vito-marrakech/",
+    "type": "product",
+    "id": 1219,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/mercedes-g-class/",
+    "type": "product",
+    "id": 3123,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/mercedes-class-g-marrakech/",
+    "type": "product",
+    "id": 1215,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/mercedes-cla/",
+    "type": "product",
+    "id": 3128,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/mercedes-cla-marrakech/",
+    "type": "product",
+    "id": 1209,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/golf-8/",
+    "type": "product",
+    "id": 3135,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/golf-8-marrakech/",
+    "type": "product",
+    "id": 1203,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/cupra-leon/",
+    "type": "product",
+    "id": 3142,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/cupra-leon-marrakech/",
+    "type": "product",
+    "id": 1197,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/bmw-m5/",
+    "type": "product",
+    "id": 3150,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/bmw-m5-marrakech/",
+    "type": "product",
+    "id": 1189,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/bmw-m4/",
+    "type": "product",
+    "id": 3159,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/bmw-m4-marrakech/",
+    "type": "product",
+    "id": 1184,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/audi-rs3/",
+    "type": "product",
+    "id": 3165,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/audi-rs3-marrakech/",
+    "type": "product",
+    "id": 1178,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/car-rental/audi-q3/",
+    "type": "product",
+    "id": 3171,
+    "lang": "en"
+  },
+  {
+    "path": "/location-de-voiture/audi-q3-marrakech/",
+    "type": "product",
+    "id": 1172,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-sultan/",
+    "type": "product",
+    "id": 2511,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-sultan/",
+    "type": "product",
+    "id": 1096,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/nora-palace/",
+    "type": "product",
+    "id": 2478,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/palais-nora-marrakech/",
+    "type": "product",
+    "id": 1071,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-targa/",
+    "type": "product",
+    "id": 2514,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-targa-marrakech/",
+    "type": "product",
+    "id": 1058,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-zaytouna/",
+    "type": "product",
+    "id": 2528,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-zaytouna-marrakech/",
+    "type": "product",
+    "id": 1044,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-sirine/",
+    "type": "product",
+    "id": 2543,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-sirine-marrakech/",
+    "type": "product",
+    "id": 1019,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-salmane/",
+    "type": "product",
+    "id": 2559,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-salmane-marrakech/",
+    "type": "product",
+    "id": 969,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-rak/",
+    "type": "product",
+    "id": 2610,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-rak-marrakech/",
+    "type": "product",
+    "id": 961,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-palmerie/",
+    "type": "product",
+    "id": 2619,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-palmerie-marrakech/",
+    "type": "product",
+    "id": 938,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-palm/",
+    "type": "product",
+    "id": 2631,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-palm-marrakech/",
+    "type": "product",
+    "id": 925,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-ouasise/",
+    "type": "product",
+    "id": 2645,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-ouasise-marrakech/",
+    "type": "product",
+    "id": 910,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-noria/",
+    "type": "product",
+    "id": 2660,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-noria-marrakech/",
+    "type": "product",
+    "id": 894,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-mimouna/",
+    "type": "product",
+    "id": 2678,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-mimouna-marrakech/",
+    "type": "product",
+    "id": 872,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-marrakchia/",
+    "type": "product",
+    "id": 2700,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-marrakchia-marrakech/",
+    "type": "product",
+    "id": 859,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-lala/",
+    "type": "product",
+    "id": 2714,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-marrakech/",
+    "type": "product",
+    "id": 846,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-kech/",
+    "type": "product",
+    "id": 2728,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-kech-marrakech/",
+    "type": "product",
+    "id": 831,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-fes/",
+    "type": "product",
+    "id": 2744,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-fes-marrakech/",
+    "type": "product",
+    "id": 808,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-fassia/",
+    "type": "product",
+    "id": 2768,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-fassia-marrakech/",
+    "type": "product",
+    "id": 794,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-crystal/",
+    "type": "product",
+    "id": 2782,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-crystal/",
+    "type": "product",
+    "id": 773,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-chouchou/",
+    "type": "product",
+    "id": 2804,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-chouchou/",
+    "type": "product",
+    "id": 712,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-golf-argan/",
+    "type": "product",
+    "id": 2834,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-golf-argan-marrakech/",
+    "type": "product",
+    "id": 689,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/activities/flying-dress-photo-shoot/",
+    "type": "product",
+    "id": 3022,
+    "lang": "en"
+  },
+  {
+    "path": "/activites/shooting-photo-flying-dress/",
+    "type": "product",
+    "id": 409,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/activities/hot-air-balloon-marrakech/",
+    "type": "product",
+    "id": 3030,
+    "lang": "en"
+  },
+  {
+    "path": "/activites/montgolfiere-marrakech/",
+    "type": "product",
+    "id": 404,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/activities/quad-lunch-and-pool-access-at-le-bedouin-transport/",
+    "type": "product",
+    "id": 3034,
+    "lang": "en"
+  },
+  {
+    "path": "/activites/marrakech-piscine/",
+    "type": "product",
+    "id": 399,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-afourar/",
+    "type": "product",
+    "id": 2858,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-afourar/",
+    "type": "product",
+    "id": 390,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-dar-zineb/",
+    "type": "product",
+    "id": 2865,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-dar-zineb/",
+    "type": "product",
+    "id": 385,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/rent-villa/villa-majo/",
+    "type": "product",
+    "id": 2870,
+    "lang": "en"
+  },
+  {
+    "path": "/location-villas/villa-majo/",
+    "type": "product",
+    "id": 380,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/spas/alhambra-baths/",
+    "type": "product",
+    "id": 3178,
+    "lang": "en"
+  },
+  {
+    "path": "/spas/les-bains-de-lalhambra/",
+    "type": "product",
+    "id": 374,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/spas/yemaya-spa/",
+    "type": "product",
+    "id": 3185,
+    "lang": "en"
+  },
+  {
+    "path": "/spas/yemaya-spa/",
+    "type": "product",
+    "id": 369,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/spas/the-house-of-tui-na/",
+    "type": "product",
+    "id": 3191,
+    "lang": "en"
+  },
+  {
+    "path": "/spas/la-maison-du-tui-na/",
+    "type": "product",
+    "id": 364,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/night-club/theatro/",
+    "type": "product",
+    "id": 2990,
+    "lang": "en"
+  },
+  {
+    "path": "/boites-de-nuit/club-marrakech/",
+    "type": "product",
+    "id": 358,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/night-club/babouchka/",
+    "type": "product",
+    "id": 2997,
+    "lang": "en"
+  },
+  {
+    "path": "/boites-de-nuit/babouchka-marrakech/",
+    "type": "product",
+    "id": 353,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/beach-club/myah-bay/",
+    "type": "product",
+    "id": 3046,
+    "lang": "en"
+  },
+  {
+    "path": "/beach-club/myah-bay-marrakech/",
+    "type": "product",
+    "id": 348,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/beach-club/famous-beach/",
+    "type": "product",
+    "id": 3052,
+    "lang": "en"
+  },
+  {
+    "path": "/beach-club/famous-beach/",
+    "type": "product",
+    "id": 343,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/beach-club/cafe-del-mar-marrakech/",
+    "type": "product",
+    "id": 3058,
+    "lang": "en"
+  },
+  {
+    "path": "/beach-club/cafe-del-mar-marrakech/",
+    "type": "product",
+    "id": 338,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/jad-mahal-palace/",
+    "type": "product",
+    "id": 2877,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/palais-jad-mahal-restaurant/",
+    "type": "product",
+    "id": 147,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/oban-by-riad-noir-divoire/",
+    "type": "product",
+    "id": 2892,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/oban-by-riad-noir-divoire/",
+    "type": "product",
+    "id": 143,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/nouba/",
+    "type": "product",
+    "id": 2897,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/nouba-restaurant-marrakech/",
+    "type": "product",
+    "id": 139,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/nommos/",
+    "type": "product",
+    "id": 2902,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/nommos-marrakech/",
+    "type": "product",
+    "id": 135,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/rooftop-garden-by-nobu/",
+    "type": "product",
+    "id": 2907,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/rooftop-marrakech/",
+    "type": "product",
+    "id": 130,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/malak-emerald/",
+    "type": "product",
+    "id": 2914,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/malak-emeraude/",
+    "type": "product",
+    "id": 125,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/mk-house/",
+    "type": "product",
+    "id": 2919,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/maison-mk-rooftop/",
+    "type": "product",
+    "id": 121,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/leopard-marrakech/",
+    "type": "product",
+    "id": 2924,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/leopard-marrakech-restaurant/",
+    "type": "product",
+    "id": 116,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/le-colibri-montgomerie/",
+    "type": "product",
+    "id": 2931,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/le-colibri-montgomerie/",
+    "type": "product",
+    "id": 112,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/lao-marrakech/",
+    "type": "product",
+    "id": 2935,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/lao-marrakech/",
+    "type": "product",
+    "id": 108,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/le-gaillard/",
+    "type": "product",
+    "id": 2940,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/le-gaillard-marrakech/",
+    "type": "product",
+    "id": 103,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/ibrahim-pacha/",
+    "type": "product",
+    "id": 2946,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/ibrahim-pacha/",
+    "type": "product",
+    "id": 99,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/the-epicurean/",
+    "type": "product",
+    "id": 2951,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/lepicurien-marrakech-restaurant/",
+    "type": "product",
+    "id": 94,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/dar-essalam/",
+    "type": "product",
+    "id": 2958,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/dar-essalam-marrakech/",
+    "type": "product",
+    "id": 90,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/buddha-bar/",
+    "type": "product",
+    "id": 2962,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/buddha-bar-marrakech/",
+    "type": "product",
+    "id": 86,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/azar/",
+    "type": "product",
+    "id": 2967,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/azar-restaurant-marrakech/",
+    "type": "product",
+    "id": 82,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/al-fassia-gueliz/",
+    "type": "product",
+    "id": 2972,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/al-fassia-gueliz/",
+    "type": "product",
+    "id": 78,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/the-istra/",
+    "type": "product",
+    "id": 2977,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/listra-marrakech/",
+    "type": "product",
+    "id": 74,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/night-club/555-club/",
+    "type": "product",
+    "id": 3002,
+    "lang": "en"
+  },
+  {
+    "path": "/boites-de-nuit/555-club-marrakech/",
+    "type": "product",
+    "id": 70,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/activities/quad-biking-in-agafay/",
+    "type": "product",
+    "id": 3040,
+    "lang": "en"
+  },
+  {
+    "path": "/activites/quad-a-agafay/",
+    "type": "product",
+    "id": 63,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/beach-club/rhoul-palace/",
+    "type": "product",
+    "id": 3064,
+    "lang": "en"
+  },
+  {
+    "path": "/beach-club/palais-rhoul/",
+    "type": "product",
+    "id": 30,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/restaurants/dar-soukkar/",
+    "type": "product",
+    "id": 2984,
+    "lang": "en"
+  },
+  {
+    "path": "/restaurants/dar-soukkar-marrakech/",
+    "type": "product",
+    "id": 19,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/blog/book-your-vip-table-at-nouba-marrakech-with-uptomarrakech/",
+    "type": "post",
+    "id": 4942,
+    "lang": "en"
+  },
+  {
+    "path": "/blog/reserver-une-balade-en-caleche-de-luxe-avec-uptomarrakech/",
+    "type": "post",
+    "id": 4905,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/blog/book-your-vip-table-at-myah-bay-marrakech-with-uptomarrakech/",
+    "type": "post",
+    "id": 4871,
+    "lang": "en"
+  },
+  {
+    "path": "/en/blog/exclusive-hot-air-balloon-breakfast-in-marrakech-uptomarrakech/",
+    "type": "post",
+    "id": 4842,
+    "lang": "en"
+  },
+  {
+    "path": "/en/blog/exclusive-desert-stargazing-at-agafay-uptomarrakech/",
+    "type": "post",
+    "id": 4827,
+    "lang": "en"
+  },
+  {
+    "path": "/en/blog/book-your-vip-table-at-azar-marrakech-with-uptomarrakech/",
+    "type": "post",
+    "id": 4826,
+    "lang": "en"
+  },
+  {
+    "path": "/en/blog/book-your-vip-table-at-cafe-del-mar-via-uptomarrakech/",
+    "type": "post",
+    "id": 4792,
+    "lang": "en"
+  },
+  {
+    "path": "/blog/reserver-au-restaurant-azar-avec-uptomarrakech/",
+    "type": "post",
+    "id": 4657,
+    "lang": "fr"
+  },
+  {
+    "path": "/blog/reserver-au-restaurant-lepicurien-avec-uptomarrakech/",
+    "type": "post",
+    "id": 4487,
+    "lang": "fr"
+  },
+  {
+    "path": "/blog/reserver-une-table-au-nobu-marrakech-avec-uptomarrakech/",
+    "type": "post",
+    "id": 4481,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/blog/book-your-table-at-nobu-marrakech-through-uptomarrakech/",
+    "type": "post",
+    "id": 4368,
+    "lang": "en"
+  },
+  {
+    "path": "/blog/reserver-votre-entree-au-club-myah-bay-via-uptomarrakech/",
+    "type": "post",
+    "id": 4325,
+    "lang": "fr"
+  },
+  {
+    "path": "/blog/reserver-votre-table-au-buddha-bar-marrakech-avec-uptomarrakech/",
+    "type": "post",
+    "id": 4140,
+    "lang": "fr"
+  },
+  {
+    "path": "/blog/reserver-votre-entree-au-theatro-marrakech-avec-uptomarrakech/",
+    "type": "post",
+    "id": 4103,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/blog/book-your-table-at-buddha-bar-marrakech-with-uptomarrakech/",
+    "type": "post",
+    "id": 3961,
+    "lang": "en"
+  },
+  {
+    "path": "/en/blog/book-your-vip-table-at-theatro-marrakech-through-uptomarrakech/",
+    "type": "post",
+    "id": 3849,
+    "lang": "en"
+  },
+  {
+    "path": "/blog/montgolfiere-a-marrakech-une-aventure-magique-au-dessus-du-maroc/",
+    "type": "post",
+    "id": 3667,
+    "lang": "fr"
+  },
+  {
+    "path": "/blog/agafay-marrakech/",
+    "type": "post",
+    "id": 1470,
+    "lang": "fr"
+  },
+  {
+    "path": "/merci/",
+    "type": "thank-you",
+    "id": null,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/thank-you/",
+    "type": "thank-you",
+    "id": null,
+    "lang": "en"
+  }
+]

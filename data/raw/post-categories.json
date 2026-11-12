@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "count": 634,
+    "description": "Your blog category",
+    "link": "https://uptomarrakech.com/category/blog/",
+    "name": "Blog",
+    "slug": "blog",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 1,
+      "en": 63
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "count": 0,
+    "description": "",
+    "link": "https://uptomarrakech.com/en/blog/",
+    "name": "Blog",
+    "slug": "blog",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 63,
+      "fr": 1
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/categories/63",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://uptomarrakech.com/wp-json/wp/v2/posts?categories=63"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
