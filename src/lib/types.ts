@@ -29,7 +29,7 @@ export type VillaDetails = { location: string | null; rooms: number | null; peop
 
 /** Text + image section shown after the products of a category (data/category-sections.json). */
 export type SectionBlock = { h3?: string; p?: string; ul?: string[] };
-export type CategorySection = { image: string; title: string; blocks: SectionBlock[] };
+export type CategorySection = { image: string; alt: string; title: string; blocks: SectionBlock[] };
 
 /** Translations map from Polylang: { fr: <id>, en: <id> } */
 export type Translations = Partial<Record<Lang, number>>;
@@ -102,6 +102,6 @@ export type Page = {
   seo: Seo | null;
 };
 
-export type RouteType = "home" | "blog" | "contact" | "transport" | "page" | "category" | "product" | "post" | "thank-you";
+export type RouteType = "home" | "blog" | "contact" | "transport" | "page" | "category" | "product" | "post" | "thank-you" | "privacy" | "terms";
 
 export type Route = { path: string; type: RouteType; id: number | null; lang: Lang };

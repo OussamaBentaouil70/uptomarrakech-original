@@ -49,7 +49,7 @@ export function PartnersSlider({ partners }: { partners: Partner[] }) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={p.logo}
-                alt={p.name}
+                alt={`Logo ${p.name}`}
                 loading="lazy"
                 className="max-h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
               />

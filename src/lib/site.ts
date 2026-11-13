@@ -17,6 +17,27 @@ export const SITE = {
   },
 };
 
+/**
+ * Company details shown on the legal pages (privacy policy, terms of use).
+ * Fill in the empty fields: empty values are simply not displayed.
+ */
+export const LEGAL = {
+  companyName: "Up To Marrakech", // e.g. "UP TO MARRAKECH SARL AU"
+  legalForm: "", // e.g. "SARL à associé unique"
+  address: "N° 188, Ezzohor 2, 40000 Marrakech, Maroc",
+  rc: "", // Registre du commerce, e.g. "RC Marrakech n° 123456"
+  ice: "", // Identifiant commun de l'entreprise
+  cndpDeclaration: "", // Récépissé / numéro de déclaration CNDP, e.g. "D-W-123/2025"
+  privacyEmail: "contact@uptomarrakech.com",
+  hosting: "Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, États-Unis",
+  lastUpdated: "2026-11-13",
+};
+
+export const LEGAL_PATHS = {
+  privacy: { fr: "/politique-de-confidentialite/", en: "/en/privacy-policy/" },
+  terms: { fr: "/conditions-generales-utilisation/", en: "/en/terms-of-use/" },
+} as const;
+
 export const whatsappHref = (message?: string) =>
   `https://wa.me/${SITE.whatsappNumber}${message ? `?text=${encodeURIComponent(message)}` : ""}`;
 

@@ -13,7 +13,7 @@ export type HomeSection = { heading: string; text: string; category: Category; i
 type Props = {
   lang: Lang;
   page: Page;
-  tiles: { category: Category; image: string | null }[];
+  tiles: { category: Category; image: string | null; imageAlt?: string }[];
   sections: HomeSection[];
   posts: Post[];
 };
@@ -37,7 +37,12 @@ export function HomeView({ lang, page, tiles, sections, posts }: Props) {
       <section className="relative flex min-h-[min(92vh,980px)] items-center justify-center">
         <div className="absolute inset-0 overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={HOME_HERO_IMAGE} alt={h1} className="h-full w-full object-cover" fetchPriority="high" />
+          <img
+            src={HOME_HERO_IMAGE}
+            alt={fr ? "La place Jemaa el-Fna à Marrakech de nuit, avec ses stands illuminés et la foule" : "Jemaa el-Fna square in Marrakech at night, with lit-up food stalls and crowds"}
+            className="h-full w-full object-cover"
+            fetchPriority="high"
+          />
           <div className="absolute inset-0 bg-black/45" />
           <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-black/40" />
         </div>
@@ -75,11 +80,11 @@ export function HomeView({ lang, page, tiles, sections, posts }: Props) {
           {explore?.paragraphs[0] && <p className="ui-prose text-lg">{explore.paragraphs[0]}</p>}
         </div>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-          {tiles.map(({ category, image }) => (
+          {tiles.map(({ category, image, imageAlt }) => (
             <Link key={category.id} href={category.path} className="group relative h-48 overflow-hidden rounded-3xl md:h-60">
               {image && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={image} alt={category.name} loading="lazy" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                <img src={image} alt={imageAlt ?? category.name} loading="lazy" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
               )}
               <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/25 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 flex items-center justify-between p-5 text-white">

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Cormorant_Garamond, Jost } from "next/font/google";
 import "./globals.css";
 import "flag-icons/css/flag-icons.min.css";
@@ -7,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Toaster } from "@/components/ui/sonner";
 import { Providers } from "@/components/providers";
+import { CookieConsent } from "@/components/cookie-consent";
 import { SITE } from "@/lib/site";
 
 // Luxury pairing: Cormorant Garamond (headings) + Jost (text)
@@ -31,14 +31,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     // lang is "fr" by default; scripts/postbuild.mjs sets lang="en" on every page under /en/.
     <html lang="fr" className={`${sans.variable} ${display.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="flex min-h-full flex-col" suppressHydrationWarning>
-        {/* Google tag (same ID as the WordPress site, via Site Kit) */}
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${SITE.googleTag}`} strategy="afterInteractive" />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${SITE.googleTag}');`}
-        </Script>
         <Providers>
           {children}
           <Toaster richColors />
+          {/* Loads the Google tag only after consent */}
+          <CookieConsent />
         </Providers>
       </body>
     </html>

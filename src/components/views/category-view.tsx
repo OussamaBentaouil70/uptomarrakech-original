@@ -8,7 +8,7 @@ type Props = {
   category: Category;
   items: Product[];
   section: CategorySection | null;
-  others: { category: Category; image: string | null }[];
+  others: { category: Category; image: string | null; imageAlt?: string }[];
 };
 
 /** Text on the left, image on the right (data/category-sections.json). */
@@ -36,7 +36,7 @@ function CategorySectionBlock({ section }: { section: CategorySection }) {
       </div>
       <div className="lg:sticky lg:top-28">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={section.image} alt={section.title} loading="lazy" className="h-[420px] w-full rounded-[2rem] object-cover shadow-2xl sm:h-[560px]" />
+        <img src={section.image} alt={section.alt} loading="lazy" className="h-[420px] w-full rounded-[2rem] object-cover shadow-2xl sm:h-[560px]" />
       </div>
     </section>
   );
@@ -44,7 +44,8 @@ function CategorySectionBlock({ section }: { section: CategorySection }) {
 
 export function CategoryView({ lang, category, items, section, others }: Props) {
   const fr = lang === "fr";
-  const banner = items.find((i) => i.images[0])?.images[0]?.src;
+  const bannerImg = items.find((i) => i.images[0])?.images[0];
+  const banner = bannerImg?.src;
   const isVilla = category.type === "accommodation";
 
   return (
@@ -53,7 +54,7 @@ export function CategoryView({ lang, category, items, section, others }: Props) 
         {banner && (
           <>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={banner} alt={category.name} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
+            <img src={banner} alt={bannerImg?.alt ?? category.name} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
             <div className="absolute inset-0 bg-black/45" />
             <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/25 to-black/35" />
           </>
@@ -91,6 +92,7 @@ export function CategoryView({ lang, category, items, section, others }: Props) 
               title: v.title,
               excerpt: v.excerpt,
               image: v.images[0]?.src ?? null,
+              imageAlt: v.images[0]?.alt ?? v.title,
               location: v.villa?.location ?? null,
               rooms: v.villa?.rooms ?? null,
               people: v.villa?.people ?? null,
@@ -116,12 +118,12 @@ export function CategoryView({ lang, category, items, section, others }: Props) 
               </h2>
             </div>
             <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
-              {others.map(({ category: other, image }) => (
+              {others.map(({ category: other, image, imageAlt }) => (
                 <Link key={other.id} href={other.path} className="group relative overflow-hidden rounded-3xl border border-border/50 bg-card/40">
                   <div className="relative h-52 w-full">
                     {image ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <img src={image} alt={other.name} loading="lazy" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                      <img src={image} alt={imageAlt ?? other.name} loading="lazy" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                     ) : (
                       <div className="h-full w-full bg-linear-to-br from-primary/25 via-secondary/20 to-background" />
                     )}

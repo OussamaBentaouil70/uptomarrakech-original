@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { ArrowRight } from "lucide-react";
 
-export type SlideItem = { id: number; path: string; title: string; image: string | null; label: string };
+export type SlideItem = { id: number; path: string; title: string; image: string | null; imageAlt?: string; label: string };
 
 /** Same slider as the mymarrakechtrip home page (image cards, autoplay, arrows). */
 export function ProductSlider({ items, cta }: { items: SlideItem[]; cta: string }) {
@@ -27,7 +27,7 @@ export function ProductSlider({ items, cta }: { items: SlideItem[]; cta: string 
           >
             {item.image && (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={item.image} alt={item.title} loading="lazy" className="h-full w-full object-cover transition-transform duration-1000 group-hover/card:scale-110" />
+              <img src={item.image} alt={item.imageAlt ?? item.title} loading="lazy" className="h-full w-full object-cover transition-transform duration-1000 group-hover/card:scale-110" />
             )}
             <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent opacity-80 transition-opacity group-hover/card:opacity-90" />
             <div className="absolute inset-0 flex flex-col justify-end p-8 text-white">

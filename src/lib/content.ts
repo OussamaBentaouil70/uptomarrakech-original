@@ -11,7 +11,7 @@ import routesJson from "../../data/content/routes.json";
 import sectionsJson from "../../data/category-sections.json";
 import type { Category, CategorySection, CategoryType, Lang, Page, Post, Product, Route, SectionBlock } from "@/lib/types";
 
-type SectionsFile = Record<string, { image: string } & Record<Lang, { title: string; blocks: SectionBlock[] }>>;
+type SectionsFile = Record<string, { image: string } & Record<Lang, { title: string; alt: string; blocks: SectionBlock[] }>>;
 const sections = sectionsJson as unknown as SectionsFile;
 
 /** Text + image section for a category page, in the given language (null if none). */
@@ -70,6 +70,8 @@ type Translatable = { lang: Lang; translations: Partial<Record<Lang, number>> };
 export function alternatePaths(route: Route, entity: Translatable | null): Partial<Record<Lang, string>> {
   const out: Partial<Record<Lang, string>> = { [route.lang]: route.path };
   if (route.type === "thank-you") return { fr: "/merci/", en: "/en/thank-you/" };
+  if (route.type === "privacy") return { fr: "/politique-de-confidentialite/", en: "/en/privacy-policy/" };
+  if (route.type === "terms") return { fr: "/conditions-generales-utilisation/", en: "/en/terms-of-use/" };
   if (!entity) return out;
   for (const lang of ["fr", "en"] as Lang[]) {
     if (lang === route.lang) continue;
@@ -90,6 +92,8 @@ export function entityForRoute(route: Route) {
     case "category":
       return getCategory(route.id);
     case "thank-you":
+    case "privacy":
+    case "terms":
       return null;
     default:
       return getPage(route.id);

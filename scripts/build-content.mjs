@@ -66,16 +66,39 @@ const toPath = (url) => {
 
 const missingImages = new Set(Object.entries(images).filter(([, v]) => v.status !== "ok").map(([k]) => k));
 
-/** Clean WordPress HTML: local image/link paths, drop srcset/sizes, remove dead images. */
-function cleanHtml(html = "") {
+const escAttr = (s) => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+
+/**
+ * Clean WordPress HTML: local image/link paths, drop srcset/sizes, remove dead images,
+ * and give every image without alt text a contextual one ("<page title> – photo n").
+ */
+function cleanHtml(html = "", altContext = "") {
+  let n = 0;
   return html
     .replace(/\s(srcset|sizes)="[^"]*"/g, "")
     .replace(/<img[^>]+src="([^"]+)"[^>]*>/g, (tag, src) => (missingImages.has(src.split("?")[0]) ? "" : tag))
+    .replace(/<img\b[^>]*>/g, (tag) => {
+      n++;
+      if (/\salt="[^"]+"/.test(tag)) return tag;
+      const alt = altContext ? `${altContext} – photo ${n}` : "";
+      return tag.replace(/\salt="[^"]*"/, "").replace(/<img\b/, `<img alt="${escAttr(alt)}"`);
+    })
     .replace(/https?:\/\/(www\.)?uptomarrakech\.com(?=\/)/g, "")
     .replace(/\sloading="lazy"/g, "")
     .replace(/<img /g, '<img loading="lazy" ')
     .trim();
 }
+
+/** "Villa", "Restaurant"… used to describe photos in alt text. */
+const TYPE_ALT = {
+  fr: { accommodation: "villa", restaurant: "restaurant", night_club: "boîte de nuit", activity: "activité", beach_club: "beach club", spa: "spa", car_rental: "voiture de location", event: "événement" },
+  en: { accommodation: "villa", restaurant: "restaurant", night_club: "nightclub", activity: "activity", beach_club: "beach club", spa: "spa", car_rental: "rental car", event: "event" },
+};
+const photoAlt = (lang, title, type, i) => {
+  const kind = TYPE_ALT[lang === "en" ? "en" : "fr"][type] ?? "";
+  const where = lang === "en" ? "in Marrakech" : "à Marrakech";
+  return `${title}${kind ? `, ${kind} ${where}` : ""} – photo ${i + 1}`;
+};
 
 const localImage = (url) => (url && !missingImages.has(url.split("?")[0]) ? toPath(url.split("?")[0]) : null);
 
@@ -122,7 +145,7 @@ const categories = cats
     type: CATEGORY_TYPE[c.slug],
     path: toPath(c.link),
     name: decode(c.name),
-    descriptionHtml: cleanHtml(c.description || ""),
+    descriptionHtml: cleanHtml(c.description || "", decode(c.name)),
     translations: c.translations || {},
     seo: seoFor(c.link),
   }));
@@ -136,18 +159,21 @@ const villaDetails = await readJson(join(ROOT, "data", "villa-details.json")).ca
 const productItems = products.map((p) => {
   const s = storeById.get(p.id);
   const cat = (p.product_cat || []).map((id) => categoryById.get(id)).find(Boolean);
+  const title = text(p.title.rendered);
   const imgs = (s?.images || [])
-    .map((i) => ({ src: localImage(i.src), alt: decode(i.alt || "") }))
-    .filter((i) => i.src);
+    .map((i) => ({ src: localImage(i.src), alt: decode(i.alt || "").trim() }))
+    .filter((i) => i.src)
+    // Photos without alt text get a contextual one: "Villa Salmane, villa à Marrakech – photo 2"
+    .map((i, n) => ({ ...i, alt: i.alt || photoAlt(p.lang, title, cat?.type, n) }));
   return {
     id: p.id,
     lang: p.lang,
     slug: p.slug,
     path: toPath(p.link),
-    title: text(p.title.rendered),
-    excerptHtml: cleanHtml(p.excerpt.rendered),
+    title,
+    excerptHtml: cleanHtml(p.excerpt.rendered, title),
     excerpt: text(p.excerpt.rendered),
-    contentHtml: cleanHtml(p.content.rendered),
+    contentHtml: cleanHtml(p.content.rendered, title),
     categoryType: cat?.type || null,
     categoryId: cat?.id || null,
     villa: villaDetails[toPath(p.link)] ?? null,
@@ -186,7 +212,7 @@ const postItems = posts
       path: toPath(p.link),
       title: text(p.title.rendered),
       excerpt: text(p.excerpt.rendered),
-      contentHtml: cleanHtml(p.content.rendered),
+      contentHtml: cleanHtml(p.content.rendered, text(p.title.rendered)),
       coverImage: localImage(m?.source_url) || fallback?.src || null,
       coverAlt: decode(m?.alt_text || "") || fallback?.alt || "",
       relatedProductId: product?.id ?? null,
@@ -232,7 +258,7 @@ const pageItems = pages.map((p) => {
     kind,
     path: toPath(p.link),
     title: text(p.title.rendered),
-    contentHtml: isBuilder ? "" : cleanHtml(p.content.rendered),
+    contentHtml: isBuilder ? "" : cleanHtml(p.content.rendered, text(p.title.rendered)),
     blocks: isBuilder ? textBlocks(p.content.rendered) : [],
     images: isBuilder
       ? [...new Set([...p.content.rendered.matchAll(/<img[^>]+src="([^"]+)"/g)].map((m) => localImage(m[1])).filter(Boolean))]
@@ -254,6 +280,11 @@ for (const p of postItems) addRoute(p.path, "post", p.id, p.lang);
 // Thank-you pages for the forms (not indexed)
 addRoute("/merci/", "thank-you", null, "fr");
 addRoute("/en/thank-you/", "thank-you", null, "en");
+// Legal pages (content in src/components/views/legal-views.tsx)
+addRoute("/politique-de-confidentialite/", "privacy", null, "fr");
+addRoute("/en/privacy-policy/", "privacy", null, "en");
+addRoute("/conditions-generales-utilisation/", "terms", null, "fr");
+addRoute("/en/terms-of-use/", "terms", null, "en");
 
 const seen = new Map();
 for (const r of routes) {

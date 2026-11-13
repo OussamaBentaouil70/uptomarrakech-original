@@ -11,6 +11,7 @@ export type VillaCardData = {
   title: string;
   excerpt: string;
   image: string | null;
+  imageAlt?: string;
   location: string | null;
   rooms: number | null;
   people: number | null;
@@ -62,7 +63,7 @@ function VillaCard({ villa, lang }: { villa: VillaCardData; lang: Lang }) {
       <Link href={villa.path} className="relative block h-64 overflow-hidden bg-secondary/30">
         {villa.image && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={villa.image} alt={villa.title} loading="lazy" className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+          <img src={villa.image} alt={villa.imageAlt ?? villa.title} loading="lazy" className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110" />
         )}
         {villa.location && (
           <span className="absolute left-4 top-4 flex items-center gap-1.5 rounded-full bg-black/55 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-md">

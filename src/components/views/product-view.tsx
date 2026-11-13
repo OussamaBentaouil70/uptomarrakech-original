@@ -94,7 +94,12 @@ export function ProductView({ lang, item, category, suggestions }: Props) {
         <div className="grid gap-16 lg:grid-cols-3">
           <div className="min-w-0 space-y-16 lg:col-span-2">
             {item.images.length > 0 && (
-              <GallerySlider coverImage={cover} gallery={item.images.slice(1).map((i) => i.src)} alt={item.title} />
+              <GallerySlider
+                coverImage={cover}
+                gallery={item.images.slice(1).map((i) => i.src)}
+                alt={item.title}
+                altBySrc={Object.fromEntries(item.images.map((i) => [i.src, i.alt]))}
+              />
             )}
             <div className="space-y-8">
               <h2 className="ui-heading border-l-4 border-primary pl-6 text-3xl font-semibold">

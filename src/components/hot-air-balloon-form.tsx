@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { usePathname, useRouter } from "next/navigation";
@@ -18,7 +18,8 @@ import {
 import { hotAirBalloonInquirySchema, type HotAirBalloonInquiryInput } from "@/lib/validation/schemas";
 import { toast } from "sonner";
 import type { CategoryType } from "@/lib/types";
-import { sendFormEmail } from "@/lib/forms/mailer";
+import { isTurnstileError, sendFormEmail } from "@/lib/forms/mailer";
+import { TURNSTILE_SITE_KEY, TURNSTILE_TEXT, TurnstileWidget, type TurnstileHandle } from "@/components/turnstile-widget";
 import { getLocaleFromPathname, thankYouPath } from "@/lib/locale";
 
 type Props = {
@@ -64,6 +65,8 @@ const defaultFormValues: HotAirBalloonInquiryInput = {
 
 export function HotAirBalloonForm({ itemId, itemSlug, categoryType }: Props) {
   const [submitting, setSubmitting] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
+  const turnstileRef = useRef<TurnstileHandle>(null);
   const router = useRouter();
   const pathname = usePathname();
   const locale = getLocaleFromPathname(pathname);
@@ -80,6 +83,10 @@ export function HotAirBalloonForm({ itemId, itemSlug, categoryType }: Props) {
   };
 
   const onSubmit = form.handleSubmit(async (values) => {
+    if (TURNSTILE_SITE_KEY && !turnstileToken) {
+      toast.error(TURNSTILE_TEXT[locale].required);
+      return;
+    }
     try {
       setSubmitting(true);
 
@@ -89,6 +96,7 @@ export function HotAirBalloonForm({ itemId, itemSlug, categoryType }: Props) {
       const fullMessage = values.message ? `${values.message}\n\n${flightDetails}` : flightDetails;
 
       await sendFormEmail({
+        turnstileToken,
         formType: "reservation",
         contact_name: `${values.firstName} ${values.lastName}`.trim(),
         contact_email: values.email,
@@ -108,9 +116,10 @@ export function HotAirBalloonForm({ itemId, itemSlug, categoryType }: Props) {
       router.push(thankYouPath(locale, "reservation"));
     } catch (error) {
       console.error(error);
-      toast.error(isFr ? "La demande n'a pas pu etre envoyee. Veuillez reessayer." : "Failed to send request. Please try again.");
+      toast.error(isTurnstileError(error) ? TURNSTILE_TEXT[locale].failed : isFr ? "La demande n'a pas pu etre envoyee. Veuillez reessayer." : "Failed to send request. Please try again.");
     } finally {
       setSubmitting(false);
+      turnstileRef.current?.reset();
     }
   });
 
@@ -299,6 +308,7 @@ export function HotAirBalloonForm({ itemId, itemSlug, categoryType }: Props) {
         />
       </div>
 
+      <TurnstileWidget ref={turnstileRef} lang={locale} onToken={setTurnstileToken} action="balloon" />
       <Button
         type="submit"
         disabled={submitting}

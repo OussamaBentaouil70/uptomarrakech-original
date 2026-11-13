@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faTiktok, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { FOOTER_NAV, HOME_PATH, SITE, whatsappHref } from "@/lib/site";
+import { FOOTER_NAV, HOME_PATH, LEGAL_PATHS, SITE, whatsappHref } from "@/lib/site";
+import { CookieSettingsLink } from "@/components/cookie-consent";
 import type { Lang } from "@/lib/types";
 
 export function SiteFooter({ lang }: { lang: Lang }) {
@@ -69,7 +70,22 @@ export function SiteFooter({ lang }: { lang: Lang }) {
               </a>
             ))}
           </div>
-          <p className="mt-5 text-zinc-500">Copyright © {new Date().getFullYear()} {SITE.name}</p>
+        </div>
+      </div>
+      <div className="border-t border-border/60">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-xs text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
+          <p>
+            Copyright © {new Date().getFullYear()} {SITE.name}
+          </p>
+          <nav aria-label={fr ? "Informations légales" : "Legal information"} className="flex flex-wrap items-center gap-x-5 gap-y-2">
+            <Link href={LEGAL_PATHS.privacy[lang]} className="hover:text-zinc-900">
+              {fr ? "Politique de confidentialité" : "Privacy policy"}
+            </Link>
+            <Link href={LEGAL_PATHS.terms[lang]} className="hover:text-zinc-900">
+              {fr ? "Conditions générales d’utilisation" : "Terms of use"}
+            </Link>
+            <CookieSettingsLink lang={lang} className="hover:text-zinc-900" />
+          </nav>
         </div>
       </div>
     </footer>

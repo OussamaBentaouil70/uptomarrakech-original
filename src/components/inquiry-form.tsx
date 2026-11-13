@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { usePathname, useRouter } from "next/navigation";
@@ -11,7 +11,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { inquirySchema, type InquiryInput } from "@/lib/validation/schemas";
 import { toast } from "sonner";
 import type { CategoryType } from "@/lib/types";
-import { sendFormEmail } from "@/lib/forms/mailer";
+import { isTurnstileError, sendFormEmail } from "@/lib/forms/mailer";
+import { TURNSTILE_SITE_KEY, TURNSTILE_TEXT, TurnstileWidget, type TurnstileHandle } from "@/components/turnstile-widget";
 import { getLocaleFromPathname, thankYouPath } from "@/lib/locale";
 
 type Props = {
@@ -22,6 +23,8 @@ type Props = {
 
 export function InquiryForm({ itemId, itemSlug, categoryType }: Props) {
   const [submitting, setSubmitting] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
+  const turnstileRef = useRef<TurnstileHandle>(null);
   const router = useRouter();
   const pathname = usePathname();
   const locale = getLocaleFromPathname(pathname);
@@ -44,9 +47,14 @@ export function InquiryForm({ itemId, itemSlug, categoryType }: Props) {
   });
 
   const onSubmit = form.handleSubmit(async (values) => {
+    if (TURNSTILE_SITE_KEY && !turnstileToken) {
+      toast.error(TURNSTILE_TEXT[locale].required);
+      return;
+    }
     try {
       setSubmitting(true);
       await sendFormEmail({
+        turnstileToken,
         formType: "reservation",
         contact_name: `${values.firstName} ${values.lastName}`.trim(),
         contact_email: values.email,
@@ -76,9 +84,10 @@ export function InquiryForm({ itemId, itemSlug, categoryType }: Props) {
       router.push(thankYouPath(locale, "reservation"));
     } catch (error) {
       console.error(error);
-      toast.error(isFr ? "La demande n'a pas pu etre envoyee. Veuillez reessayer." : "Failed to send request. Please try again.");
+      toast.error(isTurnstileError(error) ? TURNSTILE_TEXT[locale].failed : isFr ? "La demande n'a pas pu etre envoyee. Veuillez reessayer." : "Failed to send request. Please try again.");
     } finally {
       setSubmitting(false);
+      turnstileRef.current?.reset();
     }
   });
 
@@ -223,6 +232,7 @@ export function InquiryForm({ itemId, itemSlug, categoryType }: Props) {
         {errors.message && <p className="text-xs text-red-600">{errorText.message || errors.message.message}</p>}
       </div>
 
+      <TurnstileWidget ref={turnstileRef} lang={locale} onToken={setTurnstileToken} action="reservation" />
       <Button
         type="submit"
         disabled={submitting}

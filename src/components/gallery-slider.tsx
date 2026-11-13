@@ -4,7 +4,18 @@ import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, X, ZoomIn } from "lucide-react";
 
-export function GallerySlider({ coverImage, gallery, alt }: { coverImage: string; gallery: string[]; alt: string }) {
+export function GallerySlider({
+  coverImage,
+  gallery,
+  alt,
+  altBySrc = {},
+}: {
+  coverImage: string;
+  gallery: string[];
+  alt: string;
+  /** Alt text of each photo, by its URL (falls back to "<alt> – photo n"). */
+  altBySrc?: Record<string, string>;
+}) {
   const images = useMemo(() => {
     const unique = new Set([coverImage, ...gallery]);
     return Array.from(unique).filter(Boolean);
@@ -65,7 +76,7 @@ export function GallerySlider({ coverImage, gallery, alt }: { coverImage: string
           onClick={() => setIsZoomOpen(true)}
           aria-label="Open image in zoom view"
         />
-        <Image src={images[index] ?? coverImage} alt={alt} fill sizes="(max-width: 1024px) 100vw, 66vw" className="object-cover transition-all duration-500 hover:scale-[1.02]" />
+        <Image src={images[index] ?? coverImage} alt={altBySrc[images[index]] ?? `${alt} – photo ${index + 1}`} fill sizes="(max-width: 1024px) 100vw, 66vw" className="object-cover transition-all duration-500 hover:scale-[1.02]" />
         <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-black/15" />
         <div className="pointer-events-none absolute right-4 top-4 rounded-full border border-white/45 bg-black/35 p-2 text-white backdrop-blur">
           <ZoomIn className="h-4 w-4" />
@@ -166,7 +177,7 @@ export function GallerySlider({ coverImage, gallery, alt }: { coverImage: string
             <div className="relative h-full w-full overflow-hidden rounded-2xl border border-white/20">
               <Image
                 src={images[index] ?? coverImage}
-                alt={`${alt} zoomed`}
+                alt={altBySrc[images[index]] ?? `${alt} – photo ${index + 1}`}
                 fill
                 className="object-contain"
                 sizes="100vw"

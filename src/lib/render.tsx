@@ -19,7 +19,7 @@ import {
   routes,
 } from "@/lib/content";
 import { BLOG_PATH, HOME_PATH, SITE } from "@/lib/site";
-import type { CategoryType, Lang, Route } from "@/lib/types";
+import type { CategoryType, Lang, Route, RouteType } from "@/lib/types";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteBreadcrumbs, type Crumb } from "@/components/site-breadcrumbs";
@@ -29,6 +29,7 @@ import { ProductView } from "@/components/views/product-view";
 import { BlogIndexView, PostView } from "@/components/views/blog-views";
 import { ContactView, ContentPageView, ThankYouView, TransportView } from "@/components/views/page-views";
 import { HomeView, type HomeSection } from "@/components/views/home-view";
+import { PrivacyView, TermsView } from "@/components/views/legal-views";
 
 /** Every URL of the site, as catch-all segments. */
 export function allStaticParams() {
@@ -44,18 +45,56 @@ function resolve(segments: string[] | undefined): Route {
 
 const absolute = (path: string) => `${SITE.url}${path}`;
 
+/** Titles/descriptions for pages that have no WordPress SEO data. */
+const STATIC_META: Partial<Record<RouteType, Record<Lang, { title: string; description: string }>>> = {
+  "thank-you": {
+    fr: { title: `Merci pour votre demande | ${SITE.name}`, description: "Votre demande a bien été envoyée à l’équipe Up To Marrakech. Nous vous répondons très rapidement." },
+    en: { title: `Thank you for your request | ${SITE.name}`, description: "Your request has been sent to the Up To Marrakech team. We will get back to you very soon." },
+  },
+  privacy: {
+    fr: {
+      title: `Politique de confidentialité | ${SITE.name}`,
+      description: "Données personnelles collectées par Up To Marrakech, finalités, durées de conservation, cookies et vos droits (loi 09-08, CNDP, RGPD).",
+    },
+    en: {
+      title: `Privacy policy | ${SITE.name}`,
+      description: "Personal data collected by Up To Marrakech, purposes, retention, cookies and your rights under Moroccan Law 09-08 (CNDP) and the GDPR.",
+    },
+  },
+  terms: {
+    fr: {
+      title: `Conditions générales d’utilisation | ${SITE.name}`,
+      description: "Conditions d’utilisation du site Up To Marrakech : demandes de réservation, responsabilité, propriété intellectuelle et droit applicable.",
+    },
+    en: {
+      title: `Terms of use | ${SITE.name}`,
+      description: "Terms of use of the Up To Marrakech website: booking requests, liability, intellectual property and governing law.",
+    },
+  },
+};
+
+/** 1200×630 share image (logo over Marrakech photo) for pages without their own photo. */
+const OG_DEFAULT = { url: "/assets/og-default.jpg", width: 1200, height: 630 };
+
 export function metadataFor(segments: string[] | undefined): Metadata {
   const route = resolve(segments);
   const entity = entityForRoute(route);
   const seo = entity && "seo" in entity ? entity.seo : null;
   const alternates = alternatePaths(route, entity);
-  const title = seo?.title || (entity && ("title" in entity ? entity.title : "name" in entity ? entity.name : null)) || SITE.name;
-  const image = seo?.ogImage || (route.type === "product" ? coverOf(getProduct(route.id)!) : route.type === "post" ? getPost(route.id)?.coverImage : null);
+  const fallback = STATIC_META[route.type]?.[route.lang];
+  const title = seo?.title || fallback?.title || (entity && ("title" in entity ? entity.title : "name" in entity ? entity.name : null)) || SITE.name;
+  const description =
+    seo?.description || fallback?.description || (entity && "excerpt" in entity && entity.excerpt ? entity.excerpt.slice(0, 160) : undefined);
+  // Products / articles: their own photo. Home + pages without photo: branded 1200×630 image.
+  const ownImage =
+    route.type === "product" ? coverOf(getProduct(route.id)!) ?? seo?.ogImage : route.type === "post" ? getPost(route.id)?.coverImage ?? seo?.ogImage : null;
+  const og = ownImage ? { url: absolute(ownImage) } : { ...OG_DEFAULT, url: absolute(OG_DEFAULT.url) };
+  const ogAlt = ownImage ? title : route.lang === "fr" ? "Logo Up To Marrakech sur la place Jemaa el-Fna de nuit" : "Up To Marrakech logo over Jemaa el-Fna square at night";
   const noindex = route.type === "thank-you" || /noindex/i.test(seo?.robots ?? "");
 
   return {
     title: { absolute: title },
-    description: seo?.description ?? undefined,
+    description,
     robots: noindex ? { index: false, follow: true } : { index: true, follow: true, "max-image-preview": "large" },
     alternates: {
       canonical: absolute(route.path),
@@ -70,10 +109,10 @@ export function metadataFor(segments: string[] | undefined): Metadata {
       siteName: SITE.name,
       url: absolute(route.path),
       title,
-      description: seo?.description ?? undefined,
-      images: image ? [{ url: absolute(image) }] : undefined,
+      description,
+      images: [{ ...og, alt: ogAlt }],
     },
-    twitter: { card: "summary_large_image", title, description: seo?.description ?? undefined, images: image ? [absolute(image)] : undefined },
+    twitter: { card: "summary_large_image", title, description, images: [og.url] },
   };
 }
 
@@ -98,6 +137,10 @@ function crumbsFor(route: Route): Crumb[] {
     }
     case "thank-you":
       return [home, { href: route.path, label: lang === "fr" ? "Merci" : "Thank you" }];
+    case "privacy":
+      return [home, { href: route.path, label: lang === "fr" ? "Politique de confidentialité" : "Privacy policy" }];
+    case "terms":
+      return [home, { href: route.path, label: lang === "fr" ? "Conditions générales d’utilisation" : "Terms of use" }];
     default: {
       const pg = getPage(route.id)!;
       return [home, { href: pg.path, label: pg.title }];
@@ -127,8 +170,8 @@ const HOME_SECTION_MATCH: [RegExp, CategoryType][] = [
 ];
 
 const firstImageByType = (lang: Lang) => {
-  const map = new Map<CategoryType, string>();
-  for (const p of listProducts({ lang })) if (p.categoryType && !map.has(p.categoryType) && p.images[0]) map.set(p.categoryType, p.images[0].src);
+  const map = new Map<CategoryType, { src: string; alt: string }>();
+  for (const p of listProducts({ lang })) if (p.categoryType && !map.has(p.categoryType) && p.images[0]) map.set(p.categoryType, p.images[0]);
   return map;
 };
 
@@ -145,7 +188,7 @@ function renderBody(route: Route) {
       const images = firstImageByType(lang);
       const others = listCategories(lang)
         .filter((c) => c.id !== category.id)
-        .map((c) => ({ category: c, image: images.get(c.type) ?? null }));
+        .map((c) => ({ category: c, image: images.get(c.type)?.src ?? null, imageAlt: images.get(c.type)?.alt }));
       return (
         <CategoryView
           lang={lang}
@@ -171,10 +214,14 @@ function renderBody(route: Route) {
       return <ContentPageView lang={lang} page={getPage(route.id)!} />;
     case "thank-you":
       return <ThankYouView lang={lang} />;
+    case "privacy":
+      return <PrivacyView lang={lang} />;
+    case "terms":
+      return <TermsView lang={lang} />;
     case "home": {
       const page = getPage(route.id) ?? getPageByKind("home", lang)!;
       const images = firstImageByType(lang);
-      const tiles = listCategories(lang).map((c) => ({ category: c, image: images.get(c.type) ?? null }));
+      const tiles = listCategories(lang).map((c) => ({ category: c, image: images.get(c.type)?.src ?? null, imageAlt: images.get(c.type)?.alt }));
       const h2s = page.blocks.map((b, i) => ({ b, next: page.blocks[i + 1] })).filter(({ b }) => b.tag === "h2");
       const sections: HomeSection[] = [];
       for (const { b, next } of h2s) {
@@ -183,7 +230,7 @@ function renderBody(route: Route) {
         if (!category || sections.some((s) => s.category.id === category.id)) continue;
         const items = listProducts({ lang, categoryType: type })
           .slice(0, 12)
-          .map((p) => ({ id: p.id, path: p.path, title: p.title, image: p.images[0]?.src ?? null, label: category.name }));
+          .map((p) => ({ id: p.id, path: p.path, title: p.title, image: p.images[0]?.src ?? null, imageAlt: p.images[0]?.alt, label: category.name }));
         sections.push({ heading: b.text, text: next?.tag === "p" ? next.text : "", category, items });
       }
       return <HomeView lang={lang} page={page} tiles={tiles} sections={sections} posts={listPosts(lang).slice(0, 3)} />;

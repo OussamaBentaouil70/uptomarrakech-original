@@ -15,6 +15,16 @@ export function toSections(blocks: TextBlock[]) {
   return sections;
 }
 
+/** Descriptions of the photos used on the transport and contact pages (alt text). */
+const PHOTO_ALT: Record<string, { fr: string; en: string }> = {
+  "navettes.jpg": { fr: "Passagère souriante installée à l’arrière d’une voiture avec chauffeur", en: "Smiling passenger seated in the back of a chauffeur-driven car" },
+  "voiture-avec-chauffeur.jpg": { fr: "Chauffeur en costume ouvrant la portière d’une berline noire à une cliente", en: "Chauffeur in a suit opening the door of a black sedan for a client" },
+  "event-transport.jpg": { fr: "Autocars garés devant un centre de congrès, sous les palmiers", en: "Coaches parked outside a conference centre, under palm trees" },
+  "voiture-marriage.jpg": { fr: "Bouquet de mariée posé sur le capot d’une voiture de mariage", en: "Bridal bouquet on the bonnet of a wedding car" },
+  "pexels-mehdi-el-marouazi-884979055-20700637-scaled.jpg": { fr: "Minaret de la Koutoubia à Marrakech sous un ciel nuageux", en: "Koutoubia minaret in Marrakech under a cloudy sky" },
+};
+const photoAlt = (src: string, lang: Lang, fallback: string) => PHOTO_ALT[src.split("/").pop() ?? ""]?.[lang] ?? fallback;
+
 /** Only real uploaded images (Elementor pages also contain plugin icons). */
 export const contentImages = (page: Page) => page.images.filter((src) => src.startsWith("/wp-content/uploads/"));
 
@@ -52,7 +62,7 @@ export function TransportView({ lang, page }: { lang: Lang; page: Page }) {
         {images[0] && (
           <>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={images[0]} alt={h1?.heading ?? page.title} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
+            <img src={images[0]} alt={photoAlt(images[0], lang, h1?.heading ?? page.title)} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
             <div className="absolute inset-0 bg-black/50" />
           </>
         )}
@@ -88,7 +98,7 @@ export function TransportView({ lang, page }: { lang: Lang; page: Page }) {
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={images[i]}
-                        alt={s.heading}
+                        alt={photoAlt(images[i], lang, s.heading)}
                         loading="lazy"
                         className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-105"
                       />
@@ -160,7 +170,7 @@ export function ContactView({ lang, page }: { lang: Lang; page: Page }) {
           <div className="relative min-h-80 lg:min-h-full">
             {image && (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={image} alt="Marrakech" className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
+              <img src={image} alt={photoAlt(image, lang, "Marrakech")} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
             )}
             <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/15 to-transparent" />
           </div>

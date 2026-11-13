@@ -1216,5 +1216,29 @@
     "type": "thank-you",
     "id": null,
     "lang": "en"
+  },
+  {
+    "path": "/politique-de-confidentialite/",
+    "type": "privacy",
+    "id": null,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/privacy-policy/",
+    "type": "privacy",
+    "id": null,
+    "lang": "en"
+  },
+  {
+    "path": "/conditions-generales-utilisation/",
+    "type": "terms",
+    "id": null,
+    "lang": "fr"
+  },
+  {
+    "path": "/en/terms-of-use/",
+    "type": "terms",
+    "id": null,
+    "lang": "en"
   }
 ]
